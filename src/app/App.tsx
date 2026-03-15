@@ -10,7 +10,6 @@ const ColorSystem = lazy(() => import('./components/ColorSystem').then((module) 
 const Typography = lazy(() => import('./components/Typography').then((module) => ({ default: module.Typography })));
 const VisualDirection = lazy(() => import('./components/VisualDirection').then((module) => ({ default: module.VisualDirection })));
 const UIComponents = lazy(() => import('./components/UIComponents').then((module) => ({ default: module.UIComponents })));
-const ToneOfVoice = lazy(() => import('./components/ToneOfVoice').then((module) => ({ default: module.ToneOfVoice })));
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -25,7 +24,6 @@ export default function App() {
       { id: 'typography', title: 'Typography', component: <Typography /> },
       { id: 'visual-language', title: 'Visual Language', component: <VisualDirection /> },
       { id: 'ui-components', title: 'UI Components', component: <UIComponents /> },
-      { id: 'tone-of-voice', title: 'Tone of Voice', component: <ToneOfVoice /> },
     ],
     [],
   );

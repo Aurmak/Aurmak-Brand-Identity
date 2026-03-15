@@ -15,22 +15,22 @@ export function BrandOverview() {
           <img src={logoImage} alt="AURMAK Logo" className="h-10 md:h-12 lg:h-16 w-auto" />
         </div>
 
-        {/* Mission Statement */}
+        {/* Positioning */}
         <div className="space-y-4 md:space-y-6">
           <h2 className="text-[#1B2A6B] text-2xl md:text-3xl font-semibold">
             Who We Are
           </h2>
           <p className="text-[#4A5568] text-base md:text-lg lg:text-xl leading-relaxed">
-            AURMAK is a hybrid venture studio operating at the intersection of strategic consulting 
-            and hands-on engineering. We partner with ambitious organisations to build technology 
-            ventures that solve complex, real-world problems.
+            AURMAK is a digital transformation partner focused on structured execution. We align
+            commercial objectives with disciplined delivery to modernise systems, build scalable
+            products, and strengthen the infrastructure that supports growth.
           </p>
         </div>
 
-        {/* Global HQ / Local Delivery Model */}
+        {/* Operating Model */}
         <div className="border-l-4 border-[#2CB5E3] pl-4 md:pl-8 lg:pl-12 py-6 md:py-8 bg-[#F4F6F8]">
           <h2 className="text-[#1B2A6B] mb-4 md:mb-6 text-2xl md:text-3xl font-bold">
-            Global HQ / Local Delivery
+            Operating Model
           </h2>
           <div className="space-y-6 md:space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
@@ -42,26 +42,26 @@ export function BrandOverview() {
                     </svg>
                   </div>
                   <h3 className="text-[#1B2A6B]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                    Global Headquarters
+                    Strategic Oversight
                   </h3>
                 </div>
                 <p className="text-[#4A5568]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                  Centralised strategy, governance, and technical architecture ensure consistency, 
-                  quality, and alignment across all ventures. Our core team brings deep expertise 
-                  in product development, engineering, and venture building.
+                  Engagements begin with commercial context, operational constraints, and delivery
+                  governance. Strategy, architecture, and execution planning are aligned early to
+                  reduce fragmentation and create a clear path to implementation.
                 </p>
                 <ul className="space-y-2 mt-4">
                   <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
                     <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Unified technical standards and architecture</span>
+                    <span>Commercial goals translated into delivery priorities</span>
                   </li>
                   <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
                     <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Strategic oversight and venture guidance</span>
+                    <span>Governance, architecture, and security aligned from the outset</span>
                   </li>
                   <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
                     <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Quality assurance and best practices</span>
+                    <span>Clear ownership across strategy and execution</span>
                   </li>
                 </ul>
               </div>
@@ -74,26 +74,26 @@ export function BrandOverview() {
                     </svg>
                   </div>
                   <h3 className="text-[#1B2A6B]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                    Local Delivery
+                    Integrated Delivery
                   </h3>
                 </div>
                 <p className="text-[#4A5568]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                  On-the-ground teams embedded with clients provide contextual expertise, cultural 
-                  understanding, and rapid execution. We adapt global frameworks to local realities 
-                  whilst maintaining our standards of excellence.
+                  Delivery is executed through one accountable team spanning engineering, product,
+                  infrastructure, and AI implementation. The result is faster coordination, stronger
+                  control, and systems designed to perform in real operating environments.
                 </p>
                 <ul className="space-y-2 mt-4">
                   <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
                     <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Regional market expertise and networks</span>
+                    <span>Structured implementation without unnecessary complexity</span>
                   </li>
                   <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
                     <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Agile, embedded delivery teams</span>
+                    <span>Leadership-level accountability through delivery</span>
                   </li>
                   <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
                     <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Cultural adaptation and localisation</span>
+                    <span>Scalable systems built for operational continuity</span>
                   </li>
                 </ul>
               </div>
@@ -101,14 +101,14 @@ export function BrandOverview() {
 
             <div className="border-t-2 border-[#2CB5E3] pt-6 mt-8">
               <p className="text-[#1B2A6B]" style={{ fontSize: '18px', fontWeight: '600', lineHeight: '1.6' }}>
-                This hybrid model combines the rigour of enterprise consulting with the speed and 
-                execution focus of a product studio, delivering measurable outcomes for our partners.
+                We connect strategy and execution within a single operating model, helping organisations
+                move from ambition to delivery with greater control, clarity, and measurable impact.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Core Values */}
+        {/* Core Principles */}
         <div className="space-y-8">
           <h2 className="text-[#1B2A6B]" style={{ fontSize: '28px', fontWeight: '600' }}>
             Core Principles
@@ -117,33 +117,33 @@ export function BrandOverview() {
             <div className="space-y-3">
               <div className="w-2 h-16 bg-[#2CB5E3]"></div>
               <h3 className="text-[#1B2A6B]" style={{ fontSize: '20px', fontWeight: '600' }}>
-                Engineering Clarity
+                Structured Execution
               </h3>
               <p className="text-[#4A5568]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
-                We bring engineering discipline to venture building. Every decision is grounded 
-                in data, constraints, and clear objectives.
+                Complex initiatives are delivered through defined frameworks, clear ownership,
+                and disciplined implementation.
               </p>
             </div>
 
             <div className="space-y-3">
               <div className="w-2 h-16 bg-[#2CB5E3]"></div>
               <h3 className="text-[#1B2A6B]" style={{ fontSize: '20px', fontWeight: '600' }}>
-                Trusted Partnership
+                Commercial Alignment
               </h3>
               <p className="text-[#4A5568]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
-                We earn trust through transparency, accountability, and consistent delivery. 
-                Our success is measured by our partners' outcomes.
+                Technical decisions are shaped by operational priorities, measurable performance,
+                and long-term business value.
               </p>
             </div>
 
             <div className="space-y-3">
               <div className="w-2 h-16 bg-[#2CB5E3]"></div>
               <h3 className="text-[#1B2A6B]" style={{ fontSize: '20px', fontWeight: '600' }}>
-                Sustainable Innovation
+                Controlled Innovation
               </h3>
               <p className="text-[#4A5568]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
-                We build for the long term. Our ventures are designed to scale, adapt, 
-                and deliver sustained value over years, not quarters.
+                New capability is introduced with governance, precision, and scalability in mind,
+                including AI where it delivers clear operational value.
               </p>
             </div>
           </div>
