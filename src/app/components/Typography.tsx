@@ -19,7 +19,7 @@ export function Typography() {
             <div className="text-[#1B2A6B] mb-6" style={{ fontSize: '72px', fontWeight: '700', lineHeight: '1' }}>
               Inter
             </div>
-            <div className="text-[#4A5568] grid grid-cols-2 gap-8 mb-6" style={{ fontSize: '20px', lineHeight: '1.4' }}>
+            <div className="mb-6 grid grid-cols-1 gap-8 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '20px', lineHeight: '1.4' }}>
               <div>
                 <div className="mb-3" style={{ fontWeight: '700' }}>ABCDEFGHIJKLM</div>
                 <div className="mb-3" style={{ fontWeight: '700' }}>NOPQRSTUVWXYZ</div>
@@ -51,7 +51,7 @@ export function Typography() {
             <div className="text-[#1B2A6B] mb-4" style={{ fontSize: '56px', fontWeight: '700', lineHeight: '1.1' }}>
               Display / H1
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 56px / 3.5rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Bold (700)</div>
@@ -70,7 +70,7 @@ export function Typography() {
             <div className="text-[#1B2A6B] mb-4" style={{ fontSize: '48px', fontWeight: '700', lineHeight: '1.2' }}>
               Page Title / H1
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 48px / 3rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Bold (700)</div>
@@ -89,7 +89,7 @@ export function Typography() {
             <div className="text-[#1B2A6B] mb-4" style={{ fontSize: '36px', fontWeight: '600', lineHeight: '1.3' }}>
               Section Header / H2
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 36px / 2.25rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Semi-Bold (600)</div>
@@ -108,7 +108,7 @@ export function Typography() {
             <div className="text-[#1B2A6B] mb-4" style={{ fontSize: '28px', fontWeight: '600', lineHeight: '1.4' }}>
               Sub-section Header / H3
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 28px / 1.75rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Semi-Bold (600)</div>
@@ -127,7 +127,7 @@ export function Typography() {
             <div className="text-[#1B2A6B] mb-3" style={{ fontSize: '22px', fontWeight: '600', lineHeight: '1.4' }}>
               Component Header / H4
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 22px / 1.375rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Semi-Bold (600)</div>
@@ -146,7 +146,7 @@ export function Typography() {
             <div className="text-[#4A5568] mb-3" style={{ fontSize: '20px', fontWeight: '400', lineHeight: '1.6' }}>
               Lead Paragraph / Body Large — Use for introductory paragraphs, pull quotes, and content that requires additional emphasis or prominence.
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 20px / 1.25rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Regular (400)</div>
@@ -165,7 +165,7 @@ export function Typography() {
             <div className="text-[#4A5568] mb-3" style={{ fontSize: '16px', fontWeight: '400', lineHeight: '1.6' }}>
               Body Regular — The primary text size for most content. Ensures optimal readability whilst maintaining a professional, approachable appearance. Use this for standard paragraphs, descriptions, navigation, and general content. The 1.6 line height provides comfortable reading for both digital and print formats.
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 16px / 1rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Regular (400)</div>
@@ -184,7 +184,7 @@ export function Typography() {
             <div className="text-[#4A5568] mb-3" style={{ fontSize: '14px', fontWeight: '400', lineHeight: '1.5' }}>
               Body Small — Use for captions, metadata, footnotes, timestamps, labels, and secondary information that requires less visual prominence whilst remaining fully readable and accessible.
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 14px / 0.875rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Regular (400)</div>
@@ -203,7 +203,7 @@ export function Typography() {
             <div className="text-[#4A5568] mb-3" style={{ fontSize: '12px', fontWeight: '500', lineHeight: '1.4', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
               Caption / Label — Micro text for UI labels and fine print
             </div>
-            <div className="grid grid-cols-2 gap-6 text-[#4A5568]" style={{ fontSize: '14px' }}>
+            <div className="grid grid-cols-1 gap-6 text-[#4A5568] md:grid-cols-2" style={{ fontSize: '14px' }}>
               <div className="space-y-1">
                 <div><span style={{ fontWeight: '600' }}>Size:</span> 12px / 0.75rem</div>
                 <div><span style={{ fontWeight: '600' }}>Weight:</span> Medium (500)</div>
@@ -254,7 +254,7 @@ export function Typography() {
           <h3 className="text-[#1B2A6B] mb-4" style={{ fontSize: '20px', fontWeight: '600' }}>
             Web & Print Considerations
           </h3>
-          <div className="grid grid-cols-2 gap-8 text-[#4A5568]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+          <div className="grid grid-cols-1 gap-8 text-[#4A5568] lg:grid-cols-2" style={{ fontSize: '15px', lineHeight: '1.6' }}>
             <div>
               <p className="font-semibold mb-2">Digital / Web</p>
               <ul className="space-y-2">

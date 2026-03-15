@@ -603,8 +603,8 @@ Wide:    1280px+
 
 #### Raster Images (PNG, JPG)
 ```tsx
-// Use figma:asset scheme (no path prefix)
-import logoImage from 'figma:asset/[hash].png';
+// Use local relative asset paths
+import logoImage from '../assets/logo-primary.png';
 ```
 
 #### SVG Vectors
@@ -819,7 +819,6 @@ Small: Inter Regular 12px, Grey
 - Email signature template (HTML)
 
 ### Design System Files
-- Figma design system file (view-only link)
 - Ant Design theme configuration (JSON)
 - Tailwind configuration (JS)
 

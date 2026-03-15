@@ -1,35 +1,72 @@
-import { useState } from 'react';
+import { type KeyboardEvent, Suspense, lazy, useEffect, useMemo, useRef, useState } from 'react';
 import { ConfigProvider } from 'antd';
-import { CoverPage } from './components/CoverPage';
-import { BrandOverview } from './components/BrandOverview';
-import { LogoUsage } from './components/LogoUsage';
-import { ColorSystem } from './components/ColorSystem';
-import { Typography } from './components/Typography';
-import { VisualDirection } from './components/VisualDirection';
-import { UIComponents } from './components/UIComponents';
-import { ToneOfVoice } from './components/ToneOfVoice';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import logoImage from 'figma:asset/a534ae5395a05e9265cd96257376030497e72896.png';
+import logoImage from '../assets/a534ae5395a05e9265cd96257376030497e72896.png';
+
+const CoverPage = lazy(() => import('./components/CoverPage').then((module) => ({ default: module.CoverPage })));
+const BrandOverview = lazy(() => import('./components/BrandOverview').then((module) => ({ default: module.BrandOverview })));
+const LogoUsage = lazy(() => import('./components/LogoUsage').then((module) => ({ default: module.LogoUsage })));
+const ColorSystem = lazy(() => import('./components/ColorSystem').then((module) => ({ default: module.ColorSystem })));
+const Typography = lazy(() => import('./components/Typography').then((module) => ({ default: module.Typography })));
+const VisualDirection = lazy(() => import('./components/VisualDirection').then((module) => ({ default: module.VisualDirection })));
+const UIComponents = lazy(() => import('./components/UIComponents').then((module) => ({ default: module.UIComponents })));
+const ToneOfVoice = lazy(() => import('./components/ToneOfVoice').then((module) => ({ default: module.ToneOfVoice })));
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState(0);
+  const tabRefs = useRef<Array<HTMLButtonElement | null>>([]);
 
-  const pages = [
-    { title: 'Cover', component: <CoverPage /> },
-    { title: 'Brand Overview', component: <BrandOverview /> },
-    { title: 'Logo Guidelines', component: <LogoUsage /> },
-    { title: 'Colour Palette', component: <ColorSystem /> },
-    { title: 'Typography', component: <Typography /> },
-    { title: 'Visual Language', component: <VisualDirection /> },
-    { title: 'UI Components', component: <UIComponents /> },
-    { title: 'Tone of Voice', component: <ToneOfVoice /> },
-  ];
+  const pages = useMemo(
+    () => [
+      { id: 'cover', title: 'Cover', component: <CoverPage /> },
+      { id: 'brand-overview', title: 'Brand Overview', component: <BrandOverview /> },
+      { id: 'logo-guidelines', title: 'Logo Guidelines', component: <LogoUsage /> },
+      { id: 'colour-palette', title: 'Colour Palette', component: <ColorSystem /> },
+      { id: 'typography', title: 'Typography', component: <Typography /> },
+      { id: 'visual-language', title: 'Visual Language', component: <VisualDirection /> },
+      { id: 'ui-components', title: 'UI Components', component: <UIComponents /> },
+      { id: 'tone-of-voice', title: 'Tone of Voice', component: <ToneOfVoice /> },
+    ],
+    [],
+  );
 
   const goToPage = (index: number) => {
     if (index >= 0 && index < pages.length) {
       setCurrentPage(index);
     }
   };
+
+  const handleTabKeyDown = (event: KeyboardEvent<HTMLButtonElement>, index: number) => {
+    switch (event.key) {
+      case 'ArrowRight':
+      case 'ArrowDown':
+        event.preventDefault();
+        goToPage((index + 1) % pages.length);
+        break;
+      case 'ArrowLeft':
+      case 'ArrowUp':
+        event.preventDefault();
+        goToPage((index - 1 + pages.length) % pages.length);
+        break;
+      case 'Home':
+        event.preventDefault();
+        goToPage(0);
+        break;
+      case 'End':
+        event.preventDefault();
+        goToPage(pages.length - 1);
+        break;
+      default:
+        break;
+    }
+  };
+
+  useEffect(() => {
+    const activeTab = tabRefs.current[currentPage];
+    if (document.activeElement?.getAttribute('role') === 'tab' && activeTab) {
+      activeTab.focus();
+    }
+  }, [currentPage]);
 
   return (
     <ConfigProvider
@@ -48,21 +85,21 @@ export default function App() {
         }
       }}
     >
-      <div className="size-full flex flex-col bg-white">
+      <div className="flex min-h-dvh flex-col bg-white">
         {/* Top Navigation with Tabs */}
         <div className="border-b-2 border-gray-300 bg-white shadow-md">
           {/* Logo Bar */}
           {currentPage > 0 && (
-            <div className="border-b border-gray-200 px-6 md:px-8 py-3">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center space-x-4">
+            <div className="border-b border-gray-200 px-4 py-3 md:px-8">
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <div className="flex min-w-0 items-center gap-3 md:gap-4">
                   <img src={logoImage} alt="AURMAK Logo" className="h-7 md:h-8 w-auto" />
-                  <div className="w-px h-5 bg-gray-300"></div>
-                  <div className="text-[#4A5568] text-sm">
+                  <div className="hidden h-5 w-px bg-gray-300 sm:block"></div>
+                  <div className="text-sm text-[#4A5568]">
                     Brand Guidelines v1.0
                   </div>
                 </div>
-                <span className="text-[#4A5568] text-sm">
+                <span className="text-sm text-[#4A5568]">
                   {currentPage + 1}/{pages.length}
                 </span>
               </div>
@@ -70,13 +107,26 @@ export default function App() {
           )}
           
           {/* Tab Navigation */}
-          <div className="flex items-center justify-center px-6 md:px-8 py-4">
-            <div className="flex items-center space-x-2 md:space-x-4">
+          <div className="px-4 py-4 md:px-8">
+            <div
+              aria-label="Brand guideline sections"
+              className="flex gap-2 overflow-x-auto pb-1 md:justify-center md:gap-4"
+              role="tablist"
+            >
               {pages.map((page, index) => (
                 <button
-                  key={index}
+                  ref={(element) => {
+                    tabRefs.current[index] = element;
+                  }}
+                  key={page.id}
+                  aria-controls={`panel-${page.id}`}
+                  aria-selected={index === currentPage}
+                  id={`tab-${page.id}`}
                   onClick={() => goToPage(index)}
-                  className={`group flex flex-col items-center space-y-2 transition-all px-4 py-2 rounded-sm ${
+                  onKeyDown={(event) => handleTabKeyDown(event, index)}
+                  role="tab"
+                  tabIndex={index === currentPage ? 0 : -1}
+                  className={`group flex shrink-0 flex-col items-center space-y-2 rounded-sm px-4 py-2 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2CB5E3] focus-visible:ring-offset-2 ${
                     index === currentPage
                       ? 'bg-[#2CB5E3] shadow-md'
                       : 'hover:bg-gray-100'
@@ -106,17 +156,30 @@ export default function App() {
         </div>
 
         {/* Main Content */}
-        <div className="flex-1 relative overflow-hidden">
-          {pages[currentPage].component}
+        <div
+          aria-labelledby={`tab-${pages[currentPage].id}`}
+          className="relative flex-1 overflow-hidden"
+          id={`panel-${pages[currentPage].id}`}
+          role="tabpanel"
+        >
+          <Suspense
+            fallback={
+              <div className="flex h-full items-center justify-center bg-white px-6 py-12 text-center text-[#4A5568]">
+                Loading section...
+              </div>
+            }
+          >
+            {pages[currentPage].component}
+          </Suspense>
         </div>
 
         {/* Bottom Navigation - Previous/Next Only */}
         <div className="border-t border-gray-200 bg-white">
-          <div className="flex items-center justify-between px-6 md:px-8 py-4">
+          <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-4 md:px-8">
             <button
               onClick={() => goToPage(currentPage - 1)}
               disabled={currentPage === 0}
-              className={`flex items-center space-x-2 px-6 py-3 rounded-sm transition-all ${
+              className={`flex items-center space-x-2 rounded-sm px-5 py-3 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2CB5E3] focus-visible:ring-offset-2 md:px-6 ${
                 currentPage === 0
                   ? 'text-gray-300 cursor-not-allowed bg-gray-100'
                   : 'text-[#1B2A6B] border-2 border-[#1B2A6B] hover:bg-gray-50'
@@ -130,7 +193,7 @@ export default function App() {
             <button
               onClick={() => goToPage(currentPage + 1)}
               disabled={currentPage === pages.length - 1}
-              className={`flex items-center space-x-2 px-6 py-3 rounded-sm transition-all ${
+              className={`flex items-center space-x-2 rounded-sm px-5 py-3 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2CB5E3] focus-visible:ring-offset-2 md:px-6 ${
                 currentPage === pages.length - 1
                   ? 'text-gray-300 cursor-not-allowed bg-gray-100'
                   : 'text-white bg-[#2CB5E3] hover:bg-[#1B9BC4]'

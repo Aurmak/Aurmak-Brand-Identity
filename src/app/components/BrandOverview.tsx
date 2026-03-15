@@ -1,4 +1,4 @@
-import logoImage from 'figma:asset/a534ae5395a05e9265cd96257376030497e72896.png';
+import logoImage from '../../assets/a534ae5395a05e9265cd96257376030497e72896.png';
 
 export function BrandOverview() {
   return (
@@ -113,7 +113,7 @@ export function BrandOverview() {
           <h2 className="text-[#1B2A6B]" style={{ fontSize: '28px', fontWeight: '600' }}>
             Core Principles
           </h2>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
             <div className="space-y-3">
               <div className="w-2 h-16 bg-[#2CB5E3]"></div>
               <h3 className="text-[#1B2A6B]" style={{ fontSize: '20px', fontWeight: '600' }}>

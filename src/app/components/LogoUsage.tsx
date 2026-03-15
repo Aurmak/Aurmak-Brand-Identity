@@ -1,10 +1,10 @@
 import { Check, X } from 'lucide-react';
-import logoImage from 'figma:asset/a534ae5395a05e9265cd96257376030497e72896.png';
-import logoInverted from 'figma:asset/3cb6cb72c135cbff9f33bf11110879c261fa8882.png';
-import symbolImage from 'figma:asset/123c93a342e7f8e58a6c002f431ba7f794bc174c.png';
-import symbolCyan from 'figma:asset/c65624d69fb977da64433f38bb3017c7d3aed415.png';
+import logoImage from '../../assets/a534ae5395a05e9265cd96257376030497e72896.png';
+import logoInverted from '../../assets/3cb6cb72c135cbff9f33bf11110879c261fa8882.png';
+import symbolImage from '../../assets/123c93a342e7f8e58a6c002f431ba7f794bc174c.png';
+import symbolCyan from '../../assets/c65624d69fb977da64433f38bb3017c7d3aed415.png';
 import VerticalLogo from '../../imports/Layer1';
-import verticalLogoInverted from 'figma:asset/dac02b0353bb043d326dda0b0c00db99f038b840.png';
+import verticalLogoInverted from '../../assets/dac02b0353bb043d326dda0b0c00db99f038b840.png';
 
 export function LogoUsage() {
   return (
@@ -168,9 +168,9 @@ export function LogoUsage() {
             Clear Space & Minimum Size
           </h2>
           <div className="bg-[#F4F6F8] border border-gray-200 p-6 md:p-12">
-            <div className="flex items-center justify-center relative py-16">
+            <div className="relative flex items-center justify-center overflow-x-auto py-12 md:py-16">
               {/* Container with clear space visualization */}
-              <div className="relative inline-block">
+              <div className="relative inline-block px-10 md:px-12">
                 {/* The logo */}
                 <div className="relative" style={{ padding: '20px' }}>
                   <img src={logoImage} alt="AURMAK Logo with clear space" className="h-24 w-auto block" />
@@ -195,15 +195,15 @@ export function LogoUsage() {
                   </div>
                   
                   {/* Left measurement indicator */}
-                  <div className="absolute top-1/2 -translate-y-1/2 flex items-center pointer-events-none" style={{ left: '-40px' }}>
-                    <div className="text-[#2CB5E3] transform -rotate-90 whitespace-nowrap" style={{ fontSize: '13px', fontWeight: '600' }}>
+                  <div className="absolute top-1/2 -translate-y-1/2 flex items-center pointer-events-none" style={{ left: '-24px' }}>
+                    <div className="text-[#2CB5E3] md:transform md:-rotate-90 whitespace-nowrap" style={{ fontSize: '13px', fontWeight: '600' }}>
                       20px
                     </div>
                   </div>
                   
                   {/* Right measurement indicator */}
-                  <div className="absolute top-1/2 -translate-y-1/2 flex items-center pointer-events-none" style={{ right: '-40px' }}>
-                    <div className="text-[#2CB5E3] transform rotate-90 whitespace-nowrap" style={{ fontSize: '13px', fontWeight: '600' }}>
+                  <div className="absolute top-1/2 -translate-y-1/2 flex items-center pointer-events-none" style={{ right: '-24px' }}>
+                    <div className="text-[#2CB5E3] md:transform md:rotate-90 whitespace-nowrap" style={{ fontSize: '13px', fontWeight: '600' }}>
                       20px
                     </div>
                   </div>

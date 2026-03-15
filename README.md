@@ -1,11 +1,13 @@
 
-  # Brand Identity Guidelines
+# AURMAK Brand Identity Guidelines
 
-  This is a code bundle for Brand Identity Guidelines. The original project is available at https://www.figma.com/design/drs9KvSKZkbebyczZScdPR/Brand-Identity-Guidelines.
+This repository contains the AURMAK brand guidelines site built with React and Vite.
 
-  ## Running the code
+## Running locally
 
-  Run `npm i` to install the dependencies.
+Run `npm install` to install dependencies.
 
-  Run `npm run dev` to start the development server.
+Run `npm run dev` to start the development server.
+
+Run `npm run build` to create a production build.
   

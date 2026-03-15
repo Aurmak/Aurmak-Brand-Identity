@@ -25,7 +25,7 @@ export function ToneOfVoice() {
           <h2 className="text-[#1B2A6B]" style={{ fontSize: '28px', fontWeight: '600' }}>
             Voice Principles
           </h2>
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 xl:grid-cols-2">
             {/* Direct & Concise */}
             <div className="border border-gray-200 p-8 bg-[#F4F6F8] rounded-sm">
               <div className="flex items-center space-x-3 mb-4">
@@ -157,7 +157,7 @@ export function ToneOfVoice() {
           <h2 className="text-[#1B2A6B]" style={{ fontSize: '28px', fontWeight: '600' }}>
             Language & Grammar Standards
           </h2>
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 xl:grid-cols-2">
             <div className="border-l-4 border-[#2CB5E3] pl-6 space-y-4 bg-[#F4F6F8] p-6 rounded-sm">
               <h3 className="text-[#1B2A6B]" style={{ fontSize: '18px', fontWeight: '600' }}>
                 British English
@@ -221,7 +221,7 @@ export function ToneOfVoice() {
           <h3 className="text-[#1B2A6B] mb-6" style={{ fontSize: '20px', fontWeight: '600' }}>
             British English Reference
           </h3>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
             <div>
               <p className="text-[#1B2A6B] mb-3" style={{ fontSize: '14px', fontWeight: '600' }}>Use (British)</p>
               <ul className="space-y-1 text-[#4A5568]" style={{ fontSize: '14px' }}>
@@ -263,7 +263,7 @@ export function ToneOfVoice() {
           <h2 className="mb-8" style={{ fontSize: '28px', fontWeight: '600' }}>
             Quick Reference
           </h2>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
             <div className="space-y-2">
               <div style={{ fontSize: '16px', fontWeight: '600', color: '#2CB5E3' }}>Always</div>
               <ul className="space-y-1" style={{ fontSize: '14px', lineHeight: '1.6' }}>

@@ -97,7 +97,7 @@ export function ColorSystem() {
           <h2 className="text-[#1B2A6B]" style={{ fontSize: '28px', fontWeight: '600' }}>
             Neutral Colours
           </h2>
-          <div className="grid grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
             {/* White */}
             <div className="space-y-3">
               <div className="h-40 bg-white rounded-sm flex items-center justify-center border-2 border-gray-300">
@@ -199,7 +199,7 @@ export function ColorSystem() {
           <h2 className="text-[#1B2A6B]" style={{ fontSize: '28px', fontWeight: '600' }}>
             Colour Application Examples
           </h2>
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 xl:grid-cols-2">
             <div className="border border-gray-200 rounded-sm overflow-hidden">
               <div className="bg-[#1B2A6B] p-8 text-white">
                 <h3 style={{ fontSize: '24px', fontWeight: '700' }}>Header Example</h3>

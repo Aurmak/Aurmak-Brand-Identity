@@ -61,7 +61,7 @@ export function UIComponents() {
             </div>
             <div className="bg-[#F4F6F8] p-8 rounded-sm border border-gray-200">
               <Text strong style={{ color: '#1B2A6B', fontSize: '18px', display: 'block', marginBottom: '24px' }}>Corner Radius Standards</Text>
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div className="space-y-3">
                   <div className="h-20 bg-white border-2 border-[#1B2A6B] rounded-lg flex items-center justify-center font-mono text-xs">8px / Default</div>
                   <Text type="secondary" style={{ fontSize: '12px' }}>Standard AntD default for buttons, inputs, and cards. Modern, approachable aesthetic.</Text>

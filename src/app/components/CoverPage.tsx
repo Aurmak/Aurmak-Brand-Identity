@@ -2,7 +2,7 @@ import VerticalLogo from '../../imports/Layer1';
 
 export function CoverPage() {
   return (
-    <div className="h-full flex flex-col items-center justify-center bg-white relative overflow-hidden">
+    <div className="relative flex min-h-full flex-1 flex-col items-center justify-center overflow-hidden bg-white px-4 py-16 md:px-8 md:py-20">
       {/* Background geometric pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 left-0 w-full h-px bg-[#1B2A6B]" style={{ top: '20%' }} />
@@ -16,14 +16,14 @@ export function CoverPage() {
       </div>
 
       {/* Vertical Logo */}
-      <div className="relative z-10 mb-8 md:mb-16 px-4 w-full flex justify-center">
+      <div className="relative z-10 mb-8 flex w-full justify-center md:mb-16">
         <div className="w-48 md:w-64 aspect-[1.77/1] relative">
           <VerticalLogo />
         </div>
       </div>
 
       {/* Title */}
-      <div className="relative z-10 text-center space-y-4 md:space-y-6 px-4">
+      <div className="relative z-10 max-w-4xl space-y-4 text-center md:space-y-6">
         <h1 className="text-[#1B2A6B] tracking-wide text-3xl md:text-5xl lg:text-[56px] font-bold">
           Brand Identity Guidelines
         </h1>
@@ -34,7 +34,7 @@ export function CoverPage() {
       </div>
 
       {/* Bottom info */}
-      <div className="absolute bottom-6 md:bottom-12 text-[#4A5568] text-xs md:text-sm px-4">
+      <div className="absolute bottom-6 text-center text-xs text-[#4A5568] md:bottom-12 md:text-sm">
         Last updated: February 2026
       </div>
     </div>
