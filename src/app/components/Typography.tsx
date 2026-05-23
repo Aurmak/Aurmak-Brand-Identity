@@ -244,7 +244,7 @@ export function Typography() {
               relevance and rapid execution.
             </p>
             <p className="text-[#4A5568]" style={{ fontSize: '14px', fontWeight: '400', lineHeight: '1.5', opacity: 0.8 }}>
-              Founded in 2026 | London & San Francisco
+              Founded in 2026 | London
             </p>
           </div>
         </div>
