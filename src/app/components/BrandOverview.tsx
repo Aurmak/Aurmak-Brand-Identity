@@ -1,3 +1,4 @@
+import { AlertTriangle } from 'lucide-react';
 import { DoDont } from './DoDont';
 import logoImage from '../../assets/a534ae5395a05e9265cd96257376030497e72896.png';
 
@@ -14,6 +15,29 @@ export function BrandOverview() {
             <div className="w-12 md:w-16 h-1 bg-[#27AAE1]"></div>
           </div>
           <img src={logoImage} alt="AURMAK Logo" className="h-10 md:h-12 lg:h-16 w-auto" />
+        </div>
+
+        {/* Name rule */}
+        <div role="note" className="border-l-8 border-[#B42318] bg-[#FEF3F2] p-6 md:p-8">
+          <div className="mb-3 flex items-center gap-3 text-[#B42318]">
+            <AlertTriangle size={28} aria-hidden="true" />
+            <h2 style={{ fontSize: '26px', fontWeight: 800 }}>Always write AURMAK in capitals</h2>
+          </div>
+          <p className="text-[#282973]" style={{ fontSize: '18px', lineHeight: '1.6' }}>
+            In every official document, the name is always AURMAK. That includes guides, proposals, decks, contracts,
+            client emails, web copy and signage. Internal chat can use any format.
+          </p>
+          <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div className="bg-white p-4 border border-[#B42318]/30">
+              <div className="text-[#B42318]" style={{ fontSize: '14px', fontWeight: 700 }}>Never</div>
+              <div className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700, textDecoration: 'line-through' }}>Aurmak</div>
+              <div className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700, textDecoration: 'line-through' }}>aurmak</div>
+            </div>
+            <div className="bg-white p-4 border border-[#027A48]/40">
+              <div className="text-[#027A48]" style={{ fontSize: '14px', fontWeight: 700 }}>Always</div>
+              <div className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>AURMAK</div>
+            </div>
+          </div>
         </div>
 
         {/* Positioning */}
@@ -86,7 +110,7 @@ export function BrandOverview() {
           </div>
         </div>
 
-        <DoDont dos={["Write in plain UK English", "Use short, paired headlines that end in a full stop", "Say what we do and what the client gains"]} donts={["Use buzzwords such as synergy, leverage or world-class", "Use exclamation marks in headlines", "Make claims we cannot back up with a source"]} />
+        <DoDont dos={["Write in plain UK English", "Use short, paired headlines that end in a full stop", "Say what we do and what the client gains", "Write AURMAK in capitals in every official document"]} donts={["Use buzzwords such as synergy, leverage or world-class", "Use exclamation marks in headlines", "Make claims we cannot back up with a source", "Write Aurmak or aurmak in official documents"]} />
 
         {/* Core principles */}
         <div className="space-y-8">

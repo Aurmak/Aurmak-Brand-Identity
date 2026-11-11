@@ -47,6 +47,8 @@ Where a section ends with a Do and Don't list, treat it as the guidance to follo
 
 ## 3. Brand Overview
 
+> **⚠️ Always write AURMAK in capitals.** In every official document, the name is always AURMAK. That includes guides, proposals, decks, contracts, client emails, web copy and signage. Never write it as ~~Aurmak~~ or ~~aurmak~~. Internal chat can use any format.
+
 ### Who we are
 
 AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery to modernise systems, build scalable products and strengthen the infrastructure that supports growth.
@@ -79,11 +81,13 @@ AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Ea
 - Write in plain UK English
 - Use short, paired headlines that end in a full stop
 - Say what we do and what the client gains
+- Write AURMAK in capitals in every official document
 
 **Don't**
 - Use buzzwords such as synergy, leverage or world-class
 - Use exclamation marks in headlines
 - Make claims we cannot back up with a source
+- Write Aurmak or aurmak in official documents
 
 ---
 
