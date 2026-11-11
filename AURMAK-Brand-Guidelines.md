@@ -1,49 +1,73 @@
-# AURMAK Brand Identity Guidelines v1.0
+# AURMAK Brand Identity Guidelines v2.0
 
-This markdown is aligned to the current web app structure and content model.
-Section order mirrors the app tabs exactly:
+Section order matches the guide app tabs exactly:
 
 1. Cover
-2. Brand Overview
-3. Logo Guidelines
-4. Colour Palette
-5. Typography
-6. Visual Language
-7. UI Components
+2. About This Guide
+3. Brand Overview
+4. Logo Guidelines
+5. Visual Language
+6. Digital Principles
+7. Sub-Brands
+8. Pitch Decks & Proposals
+9. AI Use
+
+Logo details were checked against the AURMAK website repository (`public/aurmak-logo-lightmode.svg`, `index.html`).
 
 ---
 
 ## 1. Cover
 
 - Title: `Brand Identity Guidelines`
-- Version: `Version 1.0`
-- Footer note: `Last updated: February 2026`
+- Tagline: `Partnerships Built to Last`
+- Version: `Version 2.0`
+- Footer note: `Last updated: November 2026 · Official AURMAK Brand Guidelines`
 
 ---
 
-## 2. Brand Overview
+## 2. About This Guide
+
+This guide sets out how AURMAK looks, sounds and presents itself. It is written for everyone at AURMAK, and for the partners and suppliers who work on our behalf.
+
+**Who we are.** AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation and AI-enabled operational intelligence. We work with organisations that run complex operations, and we stay accountable for delivery after go-live.
+
+### What is in this guide
+
+- [Brand Overview](#3-brand-overview): who we are, the parent brand and sub-brands, and how we sound.
+- [Logo Guidelines](#4-logo-guidelines): the logo files, clear space, and how not to alter the logo.
+- [Visual Language](#5-visual-language): photography, imagery and graphic elements.
+- [Digital Principles](#6-digital-principles): principles for any AURMAK website, app or product.
+- [Sub-Brands](#7-sub-brands): the rules for sub-brands, products and ventures.
+- [Pitch Decks & Proposals](#8-pitch-decks--proposals): structures and templates for sales material.
+- [AI Use](#9-ai-use): when and how AI can be used, and what must be reviewed.
+
+**Email signature:** the signature tool we designed, for every staff email. You need an AURMAK account to open it. Find it on the Business Ops Hub SharePoint site: search for "email signature".
+
+Where a section ends with a Do and Don't list, treat it as the guidance to follow unless there is a good reason not to. Questions about the brand go to the brand owner, listed in the brand register.
+
+---
+
+## 3. Brand Overview
 
 ### Who We Are
 
-AURMAK is a digital transformation partner focused on structured execution. We align commercial objectives with disciplined delivery to modernise systems, build scalable products, and strengthen the infrastructure that supports growth.
+AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation, and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery to modernise systems, build scalable products, and strengthen the infrastructure that supports growth.
 
-### Operating Model
+### Brand Architecture
 
-#### Strategic Oversight
+AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one is recorded in the brand register, which holds its name, owner and relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
 
-Engagements begin with commercial context, operational constraints, and delivery governance. Strategy, architecture, and execution planning are aligned early to reduce fragmentation and create a clear path to implementation.
+- **AURMAK (parent):** defines the core identity in this guide.
+- **Sub-brands:** have their own look, within the Sub-Brands rules.
+- **Products and ventures:** follow the sub-brand rules when they have their own identity. Otherwise they use the parent brand.
 
-- Commercial goals translated into delivery priorities
-- Governance, architecture, and security aligned from the outset
-- Clear ownership across strategy and execution
+### Voice & Tone
 
-#### Integrated Delivery
-
-Delivery is executed through one accountable team spanning engineering, product, infrastructure, and AI implementation. The result is faster coordination, stronger control, and systems designed to perform in real operating environments.
-
-- Structured implementation without unnecessary complexity
-- Leadership-level accountability through delivery
-- Scalable systems built for operational continuity
+- **Formal, B2B.** Written for operators, leaders and buyers. No slang, no hype.
+- **UK English.** Use modernise, organisations and programme.
+- **Short, paired headlines.** Two short phrases ending in full stops: "Two Centres. One Vision."
+- **Words to avoid:** synergy, leverage, disruptive, game-changing, world-class, best-in-class, cutting-edge. We suggest avoiding exclamation marks in headlines.
+- **Example:** instead of "We leverage cutting-edge AI to disrupt your operations!", write "We apply AI where it reduces operational cost and risk."
 
 ### Core Principles
 
@@ -53,202 +77,269 @@ Delivery is executed through one accountable team spanning engineering, product,
 
 ---
 
-## 3. Logo Guidelines
+**Do**
+- Write in plain UK English
+- Use short, paired headlines that end in a full stop
+- Say what we do and what the client gains
+
+**Don't**
+- Use buzzwords such as synergy, leverage or world-class
+- Use exclamation marks in headlines
+- Make claims we cannot back up with a source
+
+---
+
+## 4. Logo Guidelines
 
 ### Logo Lockups
 
 - Horizontal (Primary): Use for web headers, stationery, and standard documentation.
-- Vertical (Secondary): Use for social media posts, vertical banners, and centered layouts.
+- Vertical (Secondary): Use for social media posts, vertical banners, and centred layouts.
+- Light-background and dark-background versions. On navy, use the white-wordmark version (`design/aurmak-logo-dark-background.svg`).
 
 ### Symbol Usage
 
-- The AURMAK symbol can be used independently where space is limited or brand context is already established.
-- Recommended contexts include profile images, favicons, and compact digital placements.
-- Avoid replacing the full lockup in primary brand locations where space allows.
+- The symbol can be used alone where space is limited or the brand is already established.
+- Recommended for profile images, favicons, and compact digital placements.
+- Where space allows, prefer the full lockup over the symbol in primary brand locations.
 
 ### Clear Space and Size
 
-- Maintain a minimum clear space of `20px` around all sides of the full logo.
-- Minimum size (full logo):
-- Digital: `120px` wide
-- Print: `30mm` wide
-- Minimum size (symbol only):
-- Digital: `32px`
-- Print: `8mm`
+- Clear space: keep a margin on all sides of the full logo.
+- Minimum size (full logo): print `30mm` wide.
+- Minimum size (symbol only): print `8mm`.
 
-### Do’s and Don’ts
+### Usage examples
 
 - Do maintain aspect ratio and clear space.
-- Do use approved colour/background combinations.
-- Don’t stretch or distort.
-- Don’t rotate.
-- Don’t add shadow effects.
-- Don’t change logo colours.
-- Don’t place on visually busy, low-contrast backgrounds.
+- Do use approved colour and background combinations.
+- Avoid stretching or distorting.
+- Avoid rotating.
+- Avoid adding shadow effects.
+- Avoid changing logo colours.
+- Avoid visually busy, low-contrast backgrounds.
 
 ---
 
-## 4. Colour Palette
-
-### Primary Colours
-
-#### Deep Royal Navy
-
-- HEX: `#1B2A6B`
-- RGB: `27, 42, 107`
-- CMYK: `75, 61, 0, 58`
-- PMS: `534 C`
-- Usage: Headers, primary UI elements, backgrounds, buttons, and core brand touchpoints.
-
-#### Bright Cyan
-
-- HEX: `#2CB5E3`
-- RGB: `44, 181, 227`
-- CMYK: `81, 20, 0, 11`
-- PMS: `306 C`
-- Usage: Highlights, calls to action, links, interactive elements, and emphasis.
-
-### Neutral Colours
-
-- White: `#FFFFFF`
-- Light Grey: `#F4F6F8`
-- Slate Grey: `#4A5568`
-- Dark Grey: `#2D3748`
-
-Usage guidance:
-- White for primary backgrounds and inverted elements.
-- Light Grey for subtle surfaces and sections.
-- Slate Grey for body copy.
-- Dark Grey for secondary emphasis.
-
-### Accessibility and Contrast
-
-WCAG AA compliant combinations shown in app:
-- Navy `#1B2A6B` on White `#FFFFFF` (10.2:1)
-- Slate Grey `#4A5568` on White (8.6:1)
-- White on Navy `#1B2A6B` (10.2:1)
-- Cyan `#2CB5E3` on Navy (4.8:1)
-
-Important note:
-- Never use Cyan `#2CB5E3` as body text on white backgrounds.
-
-### Print Specifications
-
-- Always use CMYK values for print.
-- Minimum `300 DPI` for raster graphics.
-- Use Pantone references when spot colour is required.
-- Coated stock is recommended for cyan fidelity.
-
----
-
-## 5. Typography
-
-### Primary Typeface
-
-- Typeface: `Inter`
-- Use Inter across digital and print brand outputs.
-
-### Type Ramp
-
-- Display / H1: `56px`, `700`, line-height `1.1`, letter spacing `-0.02em`
-- Page Title / H1: `48px`, `700`, line-height `1.2`, letter spacing `-0.01em`
-- Section Header / H2: `36px`, `600`, line-height `1.3`
-- Sub-section / H3: `28px`, `600`, line-height `1.4`
-- Component Heading / H4: `20px`, `600`, line-height `1.4`
-- Lead Body: `20px`, `400`, line-height `1.6`
-- Body Regular: `16px`, `400`, line-height `1.6`
-- Body Small: `14px`, `400`, line-height `1.5`
-- Caption / Label: `12px`, `500`, line-height `1.4`, uppercase, letter spacing `0.05em`
-
-### Usage Notes
-
-- Page and section headings use Deep Royal Navy `#1B2A6B`.
-- Body and supporting copy use Slate Grey `#4A5568`.
-- Minimum recommended body text:
-- Digital: `16px`
-- Print: `10pt`
-
----
-
-## 6. Visual Language
+## 5. Visual Language
 
 ### Visual Principles
 
-- Engineering Clarity: Structured grids, clean lines, and deliberate hierarchy.
-- Human but Professional: Authentic, calm, and credible visual tone.
-- Data Visualisation: Thin-line diagrams and uncluttered technical overlays.
+- **Engineering Clarity:** structured grids, clean lines, deliberate hierarchy.
+- **Human but Professional:** authentic, calm, credible.
+- **Data Visualisation:** thin-line diagrams and uncluttered technical overlays.
 
-### Iconography Standards
+### Imagery & Motion
 
-- Library: `Lucide React`
-- Style: Linear only, no filled icon style
-- Stroke guidance:
-- Standard UI: `1.5pt`
-- Hero accents: `2pt`
-- Icon container: `24x24px`
-- Approved icon colours:
-- Navy `#1B2A6B`
-- Cyan `#2CB5E3`
-- Slate Grey `#4A5568`
+- **Stock imagery:** blue technical imagery only: globes with city points, wireframe world maps, developer portraits in a dark room. Avoid green, magenta and neon-heavy imagery.
+- **Motion:** short and subtle, with gentle entrance effects. Avoid blocking reading. Stop for users who prefer reduced motion.
+
+### Photography
+
+Real, stock and AI-generated images are all permitted. The same rules apply to each source.
+
+- **Real photography:** show real teams, sites and working environments. Natural light, unposed moments, calm framing. Get written consent before publishing identifiable people or clients.
+- **Stock and AI-generated:** choose images that match the tone. Avoid generic clichés such as handshakes and glowing circuits. Check AI output for distorted hands, text and logos. Avoid AI images that imitate a real person or client.
+- **Treatment:** light colour grading only. Use a dark overlay where text sits on a photo. No heavy filters, neon tints or added effects.
 
 ### Graphic Elements
 
-- Use geometric linework and grid-led composition.
-- Prefer subtle overlays over decorative noise.
-- Apply cyan as selective emphasis, not dominant fill.
+- Geometric linework and grid-led composition.
+- Subtle overlays over decorative noise.
 
 ---
 
-## 7. UI Components
+**Do**
+- Use real, stock or AI-generated images that fit the tone
+- Get consent before publishing identifiable people or clients
 
-### Library and Theming
+**Don't**
+- Use AI images that imitate a real person or client
+- Use neon, heavy filters or unrelated stock imagery
 
-- Primary UI framework: `Ant Design (AntD)`
-- Global theming via `ConfigProvider`
-- Core brand token mapping:
+---
 
-```json
-{
-  "token": {
-    "colorPrimary": "#2CB5E3",
-    "colorInfo": "#2CB5E3",
-    "colorText": "#1B2A6B",
-    "fontFamily": "Inter"
-  }
-}
-```
+## 6. Digital Principles
 
-### Grid and Spacing
+These principles apply to any AURMAK website, app or product. They do not set the look of any one site. Each product team designs its own layouts, components and visual details within these principles.
 
-- 8pt grid system is used for component and layout rhythm.
-- Spacing increments: `4, 8, 16, 24, 32, 48, 64`.
-- Corner radius standards shown:
-- 8px default radius
-- Full radius for badges/switches/avatars
+### Principles
 
-### Buttons
+- **Clarity first:** each screen has one main job. Remove anything that does not help the reader or user complete it.
+- **Clear hierarchy:** headings, body copy and calls to action are easy to tell apart at a glance.
+- **Interactive elements stand out:** make calls to action and links easy to spot, and use emphasis sparingly.
+- **Feedback is clear:** pair status messages with an icon or text, never colour alone.
+- **Accessible by default:** meet WCAG 2.2 AA. Accessibility is part of the design, not a final check.
+- **Respect the user:** keep motion short and optional, load fast on slow connections, and work on phones as well as desktops.
 
-- Primary
-- Default / Secondary
-- Ghost / Outline
-- Link
+### Using the Brand in Digital
 
-Button variants include base, icon, and disabled states.
+Use from this guide:
+- The logo files and their clear-space rules
+- The voice, imagery and motion principles
 
-### Forms and Selection
+Decided by each product:
+- Page layouts, grids and spacing
+- Component shapes, sizes and states
+- Exact type sizes for each screen
+- Animation details and page transitions
 
-- Inputs: standard and prefixed search
-- Select dropdown
-- Checkbox and switch controls
+### Accessibility Requirements
 
-### Accessibility Standards
+- Use semantic HTML: real buttons, links, headings and lists
+- Every interactive element works with the keyboard alone
+- Focus should stay visible, with at least 3:1 contrast against its background
+- Every input has a programmatic label, not just visual text
+- Errors are announced to screen readers and are not conveyed by colour alone
+- Text meets 4.5:1 contrast; large text and control boundaries meet 3:1
+- Respect reduced-motion settings for all animation and video
+- A component library does not guarantee accessibility. Test each implementation.
 
-- Keyboard accessibility expected for component usage.
-- Minimum text contrast target: `4.5:1`
-- ARIA labels integrated into form patterns.
+---
+
+**Do**
+- Pair status messages with an icon or text
+
+**Don't**
+- Rely on colour alone to show status
+
+---
+
+## 7. Sub-Brands
+
+Sub-brands, products and ventures can have their own look and logos. This section sets the rules they follow to stay recognisably part of AURMAK.
+
+- **Register first:** every sub-brand is recorded in the brand register before use. The record holds its name, owner, domain, look and relationship to AURMAK. Sub-brands are not listed in this guide.
+- **Own look:** a sub-brand sets its own colours and typefaces, and records them in the register. It does not reuse the AURMAK palette or typefaces.
+- **Same accessibility bar:** check each sub-brand against the accessibility requirements in Digital Principles before publishing.
+- **Logo built from the parent rules:** a master logo file, a reversed version for dark backgrounds, and clear space and minimum sizes that follow Logo Guidelines.
+- **Retire properly:** when a sub-brand ends, the brand owner decides what happens to its domain, assets and records. Archive the assets and update the register.
+
+---
+
+**Do**
+- Register a sub-brand before using it
+
+**Don't**
+- Launch a sub-brand without a named owner
+
+---
+
+## 8. Pitch Decks & Proposals
+
+Sales material starts from our templates. Copy a template and create your own file from it. Keep the template itself unchanged, so the next person starts from the same place.
+
+| Template | What to start from |
+|---|---|
+| Product pitch: Pulse for education | The latest approved Education pitch |
+| Sales deck: Automations | The Automations sales deck. Education and payment-processing versions follow the same flow. |
+| Proposal (Word) | The proposal template |
+
+### Product pitch flow
+- Title: product name and one-line promise
+- The owner view: what the decision maker sees
+- What changes for the owner: before and after
+- What gets controlled: the scope, listed by system
+- Core idea: the existing timetable drives the building
+- The money: loss ranges, with the basis stated
+- Proof for stakeholders: what they can show others
+- One operations centre for every site
+- Sensors and installation: what we install
+- Weekly owner report: what they receive every week
+- Works with what you have: existing systems we connect
+- 90-day proof: start with one site, expand on evidence
+
+### Sales deck flow
+- Problem in one line, in the buyer's own terms
+- The buyer's day: the repetitive work described plainly
+- Capabilities: six ways we take work off the team
+- Where it applies: finance, inbox, buildings
+- Examples of work done overnight, to the buyer's rules
+- Using data they already have: a building example
+- Keep your systems: we work on top, with no migration
+- The AI reads, your rules decide, a person approves
+- Discovery: we review and rate each process before building
+- Next step: pick one process and watch it run on your data
+
+These flows are a starting point. Keep the order that suits the buyer.
+
+### Building a deck from a template
+- Copy the template and create a new file. Don't edit the template itself.
+- One message per slide: a headline, one supporting line, and only the points the buyer needs.
+- Headlines are short statements that end in a full stop.
+- Put a short caps kicker above the headline, as the templates do.
+- Quote numbers as ranges, and state the basis on the slide or in the notes.
+- Change the order or length to suit the buyer, and note any change.
+- We suggest ending with one next step, rather than a list of options.
+- Keep client names, prices and contract terms in a client copy, rather than the shared template.
+
+### Proposal flow
+- Executive summary
+- Basis of the proposal
+- The product
+- Architecture and data security
+- Commercials
+- Payment schedule and milestones
+- Post-deployment support
+- Implementation timeline
+- Client responsibilities and third-party costs
+- Glossary
+
+**Proposal voice**
+- Short sentences.
+- We prefer no em dashes. An en dash works for ranges, such as "Weeks 1–2".
+- One price, not an itemised quote.
+- Use the fixed phrases the templates use, such as "Free evaluation" and "Supervised go-live".
+
+**Do**
+- Copy the template and create a new file
+- End every deck with one clear next step
+- Quote numbers as ranges, with their basis
+
+**Don't**
+- Edit the shared template itself
+- Put client names, prices or contract terms in a shared template
+
+---
+
+## 9. AI Use
+
+AI can help us draft, research and check work. It does not replace the people who decide what we say and who signs it off.
+
+- **People review everything.** Any text, image or video made or edited with AI that goes into an email, marketing or sales material must be reviewed by a person before it is sent or published. That person is responsible for it.
+- **Messaging is written by people.** Headlines, taglines, positioning and client-facing messages are written or rewritten by a person. AI can suggest options, but a person decides what we say.
+- **Check the facts.** Check every claim, number, name, date, client reference and product capability against a trusted source. AI can invent details that sound right.
+- **Protect client and confidential information.** Only use approved AI tools for client, financial or confidential information. The approved tools are listed below.
+- **Images.** AI images follow the rules in Visual Language, including the rule against AI images that imitate a real person or client.
+
+### Approved AI tools
+
+- **Claude:** approved for all work, including client and confidential material.
+
+Any other AI tool needs approval before it is used for AURMAK work.
+
+### Remove the common AI signs
+
+Before anything leaves AURMAK, check it for these signs and rewrite them.
+
+- Em dashes. Use commas, full stops, or an en dash for ranges.
+- Stock phrases such as "delve", "in today's fast-paced world", "it's important to note", "game-changer", "unlock", "seamless", "robust", "leverage", "tapestry" and "navigate the landscape".
+- Over-explaining, or repeating the point in a closing summary.
+- Groups of three adjectives, and "not just X, but Y" framing.
+- Openers that praise the question or the reader, such as "Great question".
+
+**Do**
+- Have a person review AI-assisted material before it goes out
+- Check every fact against a trusted source
+- Rewrite stock phrases and over-explained text
+
+**Don't**
+- Send AI-written messages without a person's review
+- Let AI decide headlines, taglines or positioning
+- Paste confidential client information into an unapproved AI tool
 
 ---
 
 ## Alignment Note
 
-If the web app content changes, this markdown must be updated in the same change set so both remain identical in structure and guidance.
+If the website's brand system changes, update this markdown and the guideline app in the same change set so both stay identical in structure and guidance.

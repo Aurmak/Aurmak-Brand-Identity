@@ -12,49 +12,49 @@ export function LogoUsage() {
       <div className="max-w-6xl mx-auto space-y-8 md:space-y-12 lg:space-y-16">
         {/* Header */}
         <div>
-          <h1 className="text-[#1B2A6B] mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
+          <h1 className="text-[#282973] mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
             Logo Guidelines
           </h1>
-          <div className="w-12 md:w-16 h-1 bg-[#2CB5E3]"></div>
+          <div className="w-12 md:w-16 h-1 bg-[#27AAE1]"></div>
         </div>
 
         {/* Logo Variants */}
         <div className="space-y-6 md:space-y-10">
-          <h2 className="text-[#1B2A6B] text-2xl md:text-3xl font-semibold">
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
             Logo Lockups
           </h2>
-          <p className="text-[#4A5568] text-sm md:text-base leading-relaxed max-w-3xl">
+          <p className="text-[#545F7E] text-base md:text-base leading-relaxed max-w-3xl">
             AURMAK utilizes two primary logo lockups: Horizontal and Vertical. The Horizontal lockup is the primary version and should be used in most cases. The Vertical lockup is provided for applications where horizontal space is limited or where a centered aesthetic is desired.
           </p>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Horizontal Section */}
             <div className="space-y-4">
-              <h3 className="text-[#1B2A6B] text-xl font-medium">Horizontal (Primary)</h3>
+              <h3 className="text-[#282973] text-xl font-medium">Horizontal (Primary)</h3>
               <div className="space-y-4">
                 <div className="border border-gray-200 p-12 flex items-center justify-center bg-white h-80">
                   <img src={logoImage} alt="AURMAK Horizontal Logo" className="w-full max-w-[400px] h-auto object-contain" />
                 </div>
-                <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#1B2A6B] h-80">
+                <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#282973] h-80">
                   <img src={logoInverted} alt="AURMAK Horizontal Logo Inverted" className="w-full max-w-[400px] h-auto object-contain" />
                 </div>
-                <p className="text-[#4A5568] text-sm italic">Use for web headers, stationery, and standard documentation.</p>
+                <p className="text-[#545F7E] text-base italic">Use for web headers, stationery, and standard documentation.</p>
               </div>
             </div>
 
             {/* Vertical Section */}
             <div className="space-y-4">
-              <h3 className="text-[#1B2A6B] text-xl font-medium">Vertical (Secondary)</h3>
+              <h3 className="text-[#282973] text-xl font-medium">Vertical (Secondary)</h3>
               <div className="space-y-4">
                 <div className="border border-gray-200 p-12 flex items-center justify-center bg-white h-80">
                   <div className="w-full max-w-[240px] aspect-[1.77/1] relative">
                     <VerticalLogo />
                   </div>
                 </div>
-                <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#1B2A6B] h-80">
+                <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#282973] h-80">
                   <img src={verticalLogoInverted} alt="AURMAK Vertical Logo Inverted" className="w-full max-w-[240px] h-auto object-contain" />
                 </div>
-                <p className="text-[#4A5568] text-sm italic">Use for social media posts, vertical banners, and centered layouts.</p>
+                <p className="text-[#545F7E] text-base italic">Use for social media posts, vertical banners, and centered layouts.</p>
               </div>
             </div>
           </div>
@@ -62,10 +62,10 @@ export function LogoUsage() {
 
         {/* Symbol Usage */}
         <div className="space-y-6 md:space-y-8">
-          <h2 className="text-[#1B2A6B] text-2xl md:text-3xl font-semibold">
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
             Symbol Usage
           </h2>
-          <p className="text-[#4A5568] text-sm md:text-base leading-relaxed">
+          <p className="text-[#545F7E] text-base md:text-base leading-relaxed">
             The AURMAK symbol can be used independently in situations where space is limited or the brand is already well-established. The symbol represents innovation, stability, and forward-thinking design.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -74,63 +74,63 @@ export function LogoUsage() {
               <div className="border border-gray-200 p-12 flex items-center justify-center bg-white h-64">
                 <img src={symbolImage} alt="AURMAK Symbol on white" className="h-32 w-auto" />
               </div>
-              <p className="text-[#4A5568] text-center" style={{ fontSize: '14px' }}>
+              <p className="text-[#545F7E] text-center" style={{ fontSize: '16px' }}>
                 Symbol on white background
               </p>
             </div>
 
             {/* Symbol on navy */}
             <div className="space-y-4">
-              <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#1B2A6B] h-64">
+              <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#282973] h-64">
                 <img 
                   src={symbolCyan} 
                   alt="AURMAK Symbol on navy" 
                   className="h-32 w-auto"
                 />
               </div>
-              <p className="text-[#4A5568] text-center" style={{ fontSize: '14px' }}>
+              <p className="text-[#545F7E] text-center" style={{ fontSize: '16px' }}>
                 Symbol on navy background
               </p>
             </div>
           </div>
 
-          <div className="bg-[#F4F6F8] p-6 md:p-8 rounded-sm border border-gray-200">
-            <h3 className="text-[#1B2A6B] mb-4 text-lg md:text-xl font-semibold">
+          <div className="bg-[#EEF7FC] p-6 md:p-8 rounded-sm border border-gray-200">
+            <h3 className="text-[#282973] mb-4 text-lg md:text-xl font-semibold">
               When to Use the Symbol
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
               <div>
-                <p className="text-green-600 font-semibold mb-3" style={{ fontSize: '14px' }}>
+                <p className="text-green-600 font-semibold mb-3" style={{ fontSize: '16px' }}>
                   ✓ Appropriate Uses
                 </p>
-                <ul className="space-y-2 text-[#4A5568]" style={{ fontSize: '14px', lineHeight: '1.6' }}>
+                <ul className="space-y-2 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                   <li className="flex items-start">
-                    <span className="text-[#2CB5E3] mr-2">•</span>
+                    <span className="text-[#27AAE1] mr-2">•</span>
                     <span>Social media profile images</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2CB5E3] mr-2">•</span>
+                    <span className="text-[#27AAE1] mr-2">•</span>
                     <span>App icons and favicons</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2CB5E3] mr-2">•</span>
+                    <span className="text-[#27AAE1] mr-2">•</span>
                     <span>Watermarks and secondary branding</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Badge and stamp applications</span>
+                    <span className="text-[#27AAE1] mr-2">•</span>
+                    <span>Badges and stamps</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2CB5E3] mr-2">•</span>
+                    <span className="text-[#27AAE1] mr-2">•</span>
                     <span>Pattern and background elements</span>
                   </li>
                 </ul>
               </div>
               <div>
-                <p className="text-red-600 font-semibold mb-3" style={{ fontSize: '14px' }}>
-                  ✗ Avoid Using Symbol
+                <p className="text-red-600 font-semibold mb-3" style={{ fontSize: '16px' }}>
+                  ✗ When Not to Use the Symbol
                 </p>
-                <ul className="space-y-2 text-[#4A5568]" style={{ fontSize: '14px', lineHeight: '1.6' }}>
+                <ul className="space-y-2 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>
                     <span>Primary marketing materials (use full logo)</span>
@@ -155,8 +155,8 @@ export function LogoUsage() {
               </div>
             </div>
             <div className="mt-6 pt-6 border-t border-gray-300">
-              <p className="text-[#4A5568]" style={{ fontSize: '14px', lineHeight: '1.6' }}>
-                <strong>Minimum Size:</strong> The symbol should never be reproduced smaller than 32px (digital) or 8mm (print) to maintain clarity and visual impact.
+              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                <strong>Minimum Size:</strong> The symbol is best not reproduced smaller than 8mm in print, to maintain clarity and visual impact.
               </p>
             </div>
           </div>
@@ -164,10 +164,10 @@ export function LogoUsage() {
 
         {/* Clear Space */}
         <div className="space-y-6 md:space-y-8">
-          <h2 className="text-[#1B2A6B] text-2xl md:text-3xl font-semibold">
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
             Clear Space & Minimum Size
           </h2>
-          <div className="bg-[#F4F6F8] border border-gray-200 p-6 md:p-12">
+          <div className="bg-[#EEF7FC] border border-gray-200 p-6 md:p-12">
             <div className="relative flex items-center justify-center overflow-x-auto py-12 md:py-16">
               {/* Container with clear space visualization */}
               <div className="relative inline-block px-10 md:px-12">
@@ -176,62 +176,62 @@ export function LogoUsage() {
                   <img src={logoImage} alt="AURMAK Logo with clear space" className="h-24 w-auto block" />
                   
                   {/* Clear space boundary box - dashed cyan lines */}
-                  <div className="absolute inset-0 border-2 border-dashed border-[#2CB5E3] pointer-events-none"></div>
+                  <div className="absolute inset-0 border-2 border-dashed border-[#27AAE1] pointer-events-none"></div>
                   
                   {/* Top measurement indicator */}
                   <div className="absolute left-1/2 -translate-x-1/2 flex flex-col items-center pointer-events-none" style={{ top: '-32px' }}>
-                    <div className="text-[#2CB5E3] text-center" style={{ fontSize: '13px', fontWeight: '600' }}>
-                      20px
+                    <div className="text-[#27AAE1] text-center" style={{ fontSize: '15px', fontWeight: '600' }}>
+                      Clear space
                     </div>
-                    <div className="w-px h-4 bg-[#2CB5E3]"></div>
+                    <div className="w-px h-4 bg-[#27AAE1]"></div>
                   </div>
                   
                   {/* Bottom measurement indicator */}
                   <div className="absolute left-1/2 -translate-x-1/2 flex flex-col items-center pointer-events-none" style={{ bottom: '-32px' }}>
-                    <div className="w-px h-4 bg-[#2CB5E3]"></div>
-                    <div className="text-[#2CB5E3] text-center" style={{ fontSize: '13px', fontWeight: '600' }}>
-                      20px
+                    <div className="w-px h-4 bg-[#27AAE1]"></div>
+                    <div className="text-[#27AAE1] text-center" style={{ fontSize: '15px', fontWeight: '600' }}>
+                      Clear space
                     </div>
                   </div>
                   
                   {/* Left measurement indicator */}
                   <div className="absolute top-1/2 -translate-y-1/2 flex items-center pointer-events-none" style={{ left: '-24px' }}>
-                    <div className="text-[#2CB5E3] md:transform md:-rotate-90 whitespace-nowrap" style={{ fontSize: '13px', fontWeight: '600' }}>
-                      20px
+                    <div className="text-[#27AAE1] md:transform md:-rotate-90 whitespace-nowrap" style={{ fontSize: '15px', fontWeight: '600' }}>
+                      Clear space
                     </div>
                   </div>
                   
                   {/* Right measurement indicator */}
                   <div className="absolute top-1/2 -translate-y-1/2 flex items-center pointer-events-none" style={{ right: '-24px' }}>
-                    <div className="text-[#2CB5E3] md:transform md:rotate-90 whitespace-nowrap" style={{ fontSize: '13px', fontWeight: '600' }}>
-                      20px
+                    <div className="text-[#27AAE1] md:transform md:rotate-90 whitespace-nowrap" style={{ fontSize: '15px', fontWeight: '600' }}>
+                      Clear space
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-8 space-y-3 text-center">
-              <p className="text-[#4A5568]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+              <p className="text-[#545F7E]" style={{ fontSize: '18px', lineHeight: '1.6' }}>
                 Maintain a minimum clear space of 20 pixels around all sides of the logo. This ensures the logo remains uncluttered and maintains its visual impact in all applications.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 pt-6 border-t border-gray-300">
                 <div>
-                  <p className="text-[#1B2A6B]" style={{ fontSize: '14px', fontWeight: '600' }}>Minimum Size (Digital)</p>
-                  <p className="text-[#4A5568]" style={{ fontSize: '14px' }}>120px wide</p>
+                  <p className="text-[#282973]" style={{ fontSize: '16px', fontWeight: '600' }}>Minimum Size (Digital)</p>
+                  <p className="text-[#545F7E]" style={{ fontSize: '16px' }}>120px wide</p>
                 </div>
                 <div>
-                  <p className="text-[#1B2A6B]" style={{ fontSize: '14px', fontWeight: '600' }}>Minimum Size (Print)</p>
-                  <p className="text-[#4A5568]" style={{ fontSize: '14px' }}>30mm wide</p>
+                  <p className="text-[#282973]" style={{ fontSize: '16px', fontWeight: '600' }}>Minimum Size (Print)</p>
+                  <p className="text-[#545F7E]" style={{ fontSize: '16px' }}>30mm wide</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Do's and Don'ts */}
+        {/* Usage examples */}
         <div className="space-y-6 md:space-y-8">
-          <h2 className="text-[#1B2A6B] text-2xl md:text-3xl font-semibold">
-            Do's and Don'ts
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
+            Usage examples
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {/* Don't - Stretch */}
@@ -245,7 +245,7 @@ export function LogoUsage() {
               </div>
               <div className="flex items-center space-x-2 text-red-600">
                 <X className="w-5 h-5" />
-                <span style={{ fontSize: '14px', fontWeight: '600' }}>Don't stretch or distort</span>
+                <span style={{ fontSize: '16px', fontWeight: '600' }}>Avoid stretching or distorting</span>
               </div>
             </div>
 
@@ -260,7 +260,7 @@ export function LogoUsage() {
               </div>
               <div className="flex items-center space-x-2 text-red-600">
                 <X className="w-5 h-5" />
-                <span style={{ fontSize: '14px', fontWeight: '600' }}>Don't rotate</span>
+                <span style={{ fontSize: '16px', fontWeight: '600' }}>Don't rotate</span>
               </div>
             </div>
 
@@ -276,7 +276,7 @@ export function LogoUsage() {
               </div>
               <div className="flex items-center space-x-2 text-red-600">
                 <X className="w-5 h-5" />
-                <span style={{ fontSize: '14px', fontWeight: '600' }}>Don't add shadows</span>
+                <span style={{ fontSize: '16px', fontWeight: '600' }}>Avoid adding shadows</span>
               </div>
             </div>
 
@@ -292,7 +292,7 @@ export function LogoUsage() {
               </div>
               <div className="flex items-center space-x-2 text-red-600">
                 <X className="w-5 h-5" />
-                <span style={{ fontSize: '14px', fontWeight: '600' }}>Don't change colours</span>
+                <span style={{ fontSize: '16px', fontWeight: '600' }}>Avoid changing colours</span>
               </div>
             </div>
 
@@ -312,7 +312,7 @@ export function LogoUsage() {
               </div>
               <div className="flex items-center space-x-2 text-red-600">
                 <X className="w-5 h-5" />
-                <span style={{ fontSize: '14px', fontWeight: '600' }}>Don't use busy backgrounds</span>
+                <span style={{ fontSize: '16px', fontWeight: '600' }}>Avoid busy backgrounds</span>
               </div>
             </div>
 
@@ -327,28 +327,28 @@ export function LogoUsage() {
               </div>
               <div className="flex items-center space-x-2 text-green-600">
                 <Check className="w-5 h-5" />
-                <span style={{ fontSize: '14px', fontWeight: '600' }}>Always maintain proportions</span>
+                <span style={{ fontSize: '16px', fontWeight: '600' }}>Maintain proportions</span>
               </div>
             </div>
           </div>
         </div>
 
         {/* Accessibility Note */}
-        <div className="bg-[#F4F6F8] border-l-4 border-[#2CB5E3] p-8">
-          <h3 className="text-[#1B2A6B] mb-3" style={{ fontSize: '20px', fontWeight: '600' }}>
+        <div className="bg-[#EEF7FC] border-l-4 border-[#27AAE1] p-8">
+          <h3 className="text-[#282973] mb-3" style={{ fontSize: '22px', fontWeight: '600' }}>
             Accessibility Guidelines
           </h3>
-          <ul className="space-y-2 text-[#4A5568]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+          <ul className="space-y-2 text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>
             <li className="flex items-start">
-              <span className="text-[#2CB5E3] mr-2">•</span>
-              <span>Always provide alternative text when using the logo in digital formats: "AURMAK Logo"</span>
+              <span className="text-[#27AAE1] mr-2">•</span>
+              <span>Provide alternative text when using the logo in digital formats: "AURMAK Logo"</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2CB5E3] mr-2">•</span>
-              <span>Ensure sufficient colour contrast when placing logo on coloured backgrounds (minimum 4.5:1 ratio)</span>
+              <span className="text-[#27AAE1] mr-2">•</span>
+              <span>Keep the logo clearly legible on whatever background it sits on</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2CB5E3] mr-2">•</span>
+              <span className="text-[#27AAE1] mr-2">•</span>
               <span>For print materials, ensure logo is reproduced at minimum 300 DPI resolution</span>
             </li>
           </ul>
@@ -356,29 +356,29 @@ export function LogoUsage() {
 
         {/* Partnership & Co-branding */}
         <div className="space-y-6 md:space-y-8 pb-16">
-          <h2 className="text-[#1B2A6B] text-2xl md:text-3xl font-semibold">
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
             Partnership & Co-branding
           </h2>
-          <p className="text-[#4A5568] text-sm md:text-base leading-relaxed max-w-3xl">
-            When the AURMAK logo is used alongside a partner or portfolio company logo, use a vertical separator line. The AURMAK logo should always maintain equal visual weight with the partner logo.
+          <p className="text-[#545F7E] text-base md:text-base leading-relaxed max-w-3xl">
+            When the AURMAK logo is used alongside a partner or portfolio company logo, use a vertical separator line. The AURMAK logo should aim to maintain equal visual weight with the partner logo.
           </p>
-          <div className="bg-[#F4F6F8] border border-gray-200 p-12">
+          <div className="bg-[#EEF7FC] border border-gray-200 p-12">
             <div className="flex items-center justify-center space-x-12">
               <img src={logoImage} alt="AURMAK Logo" className="h-10 w-auto" />
               <div className="h-12 w-px bg-gray-400"></div>
-              <div className="h-10 w-32 border-2 border-dashed border-gray-300 flex items-center justify-center text-gray-400 font-mono text-xs">
+              <div className="h-10 w-32 border-2 border-dashed border-gray-300 flex items-center justify-center text-gray-400 font-mono text-sm">
                 PARTNER LOGO
               </div>
             </div>
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 border-t border-gray-300">
               <div className="space-y-2">
-                <p className="text-[#1B2A6B] font-semibold" style={{ fontSize: '14px' }}>Endorsement Line</p>
-                <p className="text-[#4A5568] italic" style={{ fontSize: '13px' }}>"An AURMAK Venture Studio Company"</p>
-                <p className="text-[#4A5568]" style={{ fontSize: '13px' }}>Set in Inter Regular, 0.05em letter spacing, Slate Grey (#4A5568).</p>
+                <p className="text-[#282973] font-semibold" style={{ fontSize: '16px' }}>Endorsement Line</p>
+                <p className="text-[#545F7E] italic" style={{ fontSize: '15px' }}>"An AURMAK Venture Studio Company"</p>
+                <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>Set smaller than the logo wordmark, and always after it.</p>
               </div>
               <div className="space-y-2">
-                <p className="text-[#1B2A6B] font-semibold" style={{ fontSize: '14px' }}>Visual Hierarchy</p>
-                <p className="text-[#4A5568]" style={{ fontSize: '13px' }}>AURMAK should ideally appear first (left or top) in co-branded communications initiated by the studio.</p>
+                <p className="text-[#282973] font-semibold" style={{ fontSize: '16px' }}>Visual Hierarchy</p>
+                <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>AURMAK should ideally appear first (left or top) in co-branded communications initiated by the studio.</p>
               </div>
             </div>
           </div>
