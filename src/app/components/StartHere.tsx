@@ -18,8 +18,7 @@ export function StartHere({ onNavigate }: { onNavigate: (id: string) => void }) 
           </h1>
           <div className="mb-6 mt-4 h-1 w-16 bg-[#27AAE1]"></div>
           <p className="text-[#545F7E]" style={{ fontSize: '20px', lineHeight: '1.6', maxWidth: '48rem' }}>
-            This guide sets out how AURMAK looks, sounds and presents itself. It is written for everyone at AURMAK,
-            and for the partners and suppliers who work on our behalf.
+            This guide sets out how AURMAK looks, sounds and presents itself. It is written for everyone at AURMAK.
           </p>
         </div>
 
@@ -45,7 +44,7 @@ export function StartHere({ onNavigate }: { onNavigate: (id: string) => void }) 
         </div>
 
         <div className="border border-dashed border-slate-300 bg-white p-6">
-          <div className="mb-2 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Email signature</div>
+          <div className="mb-2 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Also useful: email signature</div>
           <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
             The signature tool we designed, for every staff email. You need an AURMAK account to open it.
           </p>
@@ -54,7 +53,7 @@ export function StartHere({ onNavigate }: { onNavigate: (id: string) => void }) 
 
         <p className="max-w-3xl text-[#545F7E]" style={{ fontSize: '18px', lineHeight: '1.6' }}>
           Where a section ends with a Do and Don't list, treat it as the guidance to follow unless there is a good
-          reason not to. Questions about the brand go to the brand owner.
+          reason not to.
         </p>
       </div>
     </div>

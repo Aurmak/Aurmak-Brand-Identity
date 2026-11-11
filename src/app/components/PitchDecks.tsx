@@ -1,12 +1,12 @@
 import { DoDont } from './DoDont';
 const templates = [
   {
-    name: 'Product pitch: Pulse for education',
-    detail: 'Start from the latest approved Education pitch. Copy it and create a new file for each buyer.',
+    name: 'Product pitch',
+    detail: 'Start from the latest approved product pitch. Copy it and create a new file for each buyer.',
   },
   {
-    name: 'Sales deck: Automations',
-    detail: 'Start from the Automations sales deck. Education and payment-processing versions follow the same flow.',
+    name: 'Sales deck',
+    detail: 'Start from the latest approved sales deck. Copy it and create a new file for each buyer.',
   },
   {
     name: 'Proposal (Word)',
@@ -14,7 +14,7 @@ const templates = [
   },
 ];
 
-const pulseEducation = [
+const productPitchExample = [
   'Title: product name and one-line promise',
   'The owner view: what the decision maker sees',
   'What changes for the owner: before and after',
@@ -29,7 +29,7 @@ const pulseEducation = [
   '90-day proof: start with one site, expand on evidence',
 ];
 
-const automations = [
+const salesDeckExample = [
   'Problem in one line, in the buyer\'s own terms',
   'The buyer\'s day: the repetitive work described plainly',
   'Capabilities: six ways we take work off the team',
@@ -68,7 +68,7 @@ const proposalSections = [
 
 const proposalVoice = [
   'Short sentences.',
-  'We prefer no em dashes. An en dash works for ranges, such as "Weeks 1–2".',
+  'No em dashes. An en dash works for ranges, such as "Weeks 1–2".',
   'One price, not an itemised quote.',
   'Use the fixed phrases the templates use, such as "Free evaluation" and "Supervised go-live".',
 ];
@@ -116,16 +116,16 @@ export function PitchDecks() {
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div className="space-y-6">
-            <h2 className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>Pulse Education pitch flow</h2>
-            <Bullets items={pulseEducation} />
+            <h2 className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>Example product pitch flow</h2>
+            <Bullets items={productPitchExample} />
           </div>
           <div className="space-y-6">
             <h2 className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>Sales deck flow</h2>
-            <Bullets items={automations} />
+            <Bullets items={salesDeckExample} />
           </div>
         </div>
         <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-          These flows are a starting point. Keep the order that suits the buyer.
+          These flows are examples, not requirements. Keep the order that suits the buyer.
         </p>
 
         <div className="border-l-4 border-[#27AAE1] bg-[#EEF7FC] p-8">

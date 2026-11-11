@@ -24,15 +24,15 @@ export function BrandOverview() {
           <p className="text-[#545F7E] text-base md:text-lg lg:text-xl leading-relaxed">
             AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation
             and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery
-            to modernise systems, build scalable products, and strengthen the infrastructure that supports growth.
+            to modernise systems, build scalable products and strengthen the infrastructure that supports growth.
           </p>
         </div>
 
         {/* Brand architecture */}
         <div className="space-y-6 md:space-y-8">
-          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">Brand Architecture</h2>
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">Brand architecture</h2>
           <p className="text-[#545F7E] text-base leading-relaxed max-w-3xl">
-            AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a named brand owner and a clear relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
+            AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a clear relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
           </p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             <div className="border border-slate-200 bg-white p-6 shadow-sm">
@@ -53,7 +53,7 @@ export function BrandOverview() {
         {/* Voice */}
 
         <div className="space-y-6 md:space-y-8">
-          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">Voice & Tone</h2>
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">Voice and tone</h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             <div className="space-y-2">
               <p className="text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Formal, B2B</p>
@@ -65,12 +65,12 @@ export function BrandOverview() {
             </div>
             <div className="space-y-2">
               <p className="text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Short, paired headlines</p>
-              <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>Two short phrases ending in full stops: "Two Centres. One Vision." Use this pattern for section titles.</p>
+              <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>Two short phrases ending in full stops: "Two Centres. One Vision." Use this pattern for marketing headlines.</p>
             </div>
           </div>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div className="border border-slate-200 bg-white p-6">
-              <p className="mb-3 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Words to avoid</p>
+              <p className="mb-3 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Words and habits to avoid</p>
               <ul className="space-y-1 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                 <li>• Synergy, leverage, disruptive, game-changing</li>
                 <li>• World-class, best-in-class, cutting-edge</li>
@@ -88,16 +88,16 @@ export function BrandOverview() {
 
         <DoDont dos={["Write in plain UK English", "Use short, paired headlines that end in a full stop", "Say what we do and what the client gains"]} donts={["Use buzzwords such as synergy, leverage or world-class", "Use exclamation marks in headlines", "Make claims we cannot back up with a source"]} />
 
-        {/* Core Principles */}
+        {/* Core principles */}
         <div className="space-y-8">
           <h2 className="text-[#282973]" style={{ fontSize: '30px', fontWeight: '600' }}>
-            Core Principles
+            Core principles
           </h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
             <div className="space-y-3">
               <div className="w-2 h-16 bg-[#27AAE1]"></div>
               <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                Structured Execution
+                Structured execution
               </h3>
               <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>
                 Complex initiatives are delivered through defined frameworks, clear ownership,
@@ -108,7 +108,7 @@ export function BrandOverview() {
             <div className="space-y-3">
               <div className="w-2 h-16 bg-[#27AAE1]"></div>
               <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                Commercial Alignment
+                Commercial alignment
               </h3>
               <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>
                 Technical decisions are shaped by operational priorities, measurable performance,
@@ -119,10 +119,10 @@ export function BrandOverview() {
             <div className="space-y-3">
               <div className="w-2 h-16 bg-[#27AAE1]"></div>
               <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                Controlled Innovation
+                Controlled innovation
               </h3>
               <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>
-                New capability is introduced with governance, precision, and scalability in mind,
+                New capability is introduced with governance and precision in mind,
                 including AI where it delivers clear operational value.
               </p>
             </div>

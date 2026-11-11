@@ -45,7 +45,7 @@ export function VisualDirection() {
                 Human but Professional
               </h3>
               <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                Show real working environments, calm pacing, and intentional spacing. The overall tone should feel credible, composed, and current.
+                Show real working environments, calm pacing, and intentional spacing. The overall tone should feel credible and composed.
               </p>
             </div>
             <div className="space-y-4">
@@ -213,7 +213,7 @@ export function VisualDirection() {
           <div className="border-l-4 border-[#27AAE1] bg-[#EEF7FC] p-6">
             <p className="text-[#282973]" style={{ fontSize: '18px', fontWeight: 600 }}>Treatment</p>
             <p className="mt-2 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-              We suggest light grading, and a dark overlay where text sits on a photo. Avoid heavy filters, neon tints and added effects.
+              Use light grading, and a dark overlay where text sits on a photo. Avoid heavy filters, neon tints and added effects.
             </p>
           </div>
         </div>

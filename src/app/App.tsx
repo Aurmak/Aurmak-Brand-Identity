@@ -26,7 +26,7 @@ export default function App() {
       { id: 'visual-language', title: 'Visual Language', component: <VisualDirection /> },
       { id: 'digital-principles', title: 'Digital Principles', component: <DigitalPrinciples /> },
       { id: 'sub-brands', title: 'Sub-Brands', component: <SubBrands /> },
-      { id: 'pitch-decks', title: 'Pitch Decks', component: <PitchDecks /> },
+      { id: 'pitch-decks', title: 'Pitch Decks & Proposals', component: <PitchDecks /> },
       { id: 'ai-use', title: 'AI Use', component: <AIUse /> },
     ],
     [],

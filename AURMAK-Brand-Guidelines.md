@@ -41,9 +41,9 @@ This guide sets out how AURMAK looks, sounds and presents itself. It is written 
 - [Pitch Decks & Proposals](#8-pitch-decks--proposals): structures and templates for sales material.
 - [AI Use](#9-ai-use): when and how AI can be used, and what must be reviewed.
 
-**Email signature:** the signature tool we designed, for every staff email. You need an AURMAK account to open it. Find it on the Business Ops Hub SharePoint site: search for "email signature".
+**Also useful: email signature.** the signature tool we designed, for every staff email. You need an AURMAK account to open it. Find it on the Business Ops Hub SharePoint site: search for "email signature".
 
-Where a section ends with a Do and Don't list, treat it as the guidance to follow unless there is a good reason not to. Questions about the brand go to the brand owner.
+Where a section ends with a Do and Don't list, treat it as the guidance to follow unless there is a good reason not to.
 
 ---
 
@@ -51,29 +51,29 @@ Where a section ends with a Do and Don't list, treat it as the guidance to follo
 
 ### Who we are
 
-AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery to modernise systems, build scalable products, and strengthen the infrastructure that supports growth.
+AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery to modernise systems, build scalable products and strengthen the infrastructure that supports growth.
 
-### Brand Architecture
+### Brand architecture
 
-AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a named brand owner and a clear relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
+AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a clear relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
 
 - **AURMAK (parent):** defines the core identity in this guide.
 - **Sub-brands:** have their own look, within the Sub-Brands rules.
 - **Products and ventures:** follow the sub-brand rules when they have their own identity. Otherwise they use the parent brand.
 
-### Voice & Tone
+### Voice and tone
 
 - **Formal, B2B.** Written for operators, leaders and buyers. No slang, no hype.
 - **UK English.** Use modernise, organisations and programme.
 - **Short, paired headlines.** Two short phrases ending in full stops: "Two Centres. One Vision."
-- **Words to avoid:** synergy, leverage, disruptive, game-changing, world-class, best-in-class, cutting-edge. We suggest avoiding exclamation marks in headlines.
+- **Words and habits to avoid:** synergy, leverage, disruptive, game-changing, world-class, best-in-class, cutting-edge. Avoid exclamation marks in headlines.
 - **Example:** instead of "We leverage cutting-edge AI to disrupt your operations!", write "We apply AI where it reduces operational cost and risk."
 
-### Core Principles
+### Core principles
 
-- Structured Execution: Complex initiatives are delivered through defined frameworks, clear ownership, and disciplined implementation.
-- Commercial Alignment: Technical decisions are shaped by operational priorities, measurable performance, and long-term business value.
-- Controlled Innovation: New capability is introduced with governance, precision, and scalability in mind, including AI where it delivers clear operational value.
+- Structured execution: Complex initiatives are delivered through defined frameworks and clear ownership.
+- Commercial alignment: Technical decisions are shaped by operational priorities and measurable performance.
+- Controlled innovation: New capability is introduced with governance and precision in mind, including AI where it delivers clear operational value.
 
 ---
 
@@ -93,14 +93,14 @@ AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Ea
 
 ### Logo lockups
 
-- Horizontal (Primary): Use for web headers, stationery, and standard documentation.
+- Horizontal (Primary): Use for web headers, stationery and standard documentation.
 - Vertical (Secondary): Use for social media posts, vertical banners, and centred layouts.
 - Light-background and dark-background versions. On navy, use the white-wordmark version (`design/aurmak-logo-dark-background.svg`).
 
-### Symbol Usage
+### Symbol usage
 
 - The symbol can be used alone where space is limited or the brand is already established.
-- Recommended for profile images, favicons, and compact digital placements.
+- Recommended for profile images, favicons and compact digital placements.
 - Where space allows, prefer the full lockup over the symbol in primary brand locations.
 
 ### Clear Space and Size
@@ -209,19 +209,19 @@ Decided by each product:
 
 Sub-brands, products and ventures can have their own look and logos. This section sets the rules they follow to stay recognisably part of AURMAK.
 
-- **Agree first:** every sub-brand is agreed with the brand owner before use. Each one has a named owner, domain, look and relationship to AURMAK. Sub-brands are not listed in this guide.
-- **Own look:** a sub-brand sets its own colours and typefaces, and agrees them with the brand owner. It does not reuse the AURMAK palette or typefaces.
+- **Agree first:** every sub-brand is agreed before use. Each one has a domain, look and relationship to AURMAK. Sub-brands are not listed in this guide.
+- **Own look:** a sub-brand sets its own colours and typefaces, . It does not reuse the AURMAK look.
 - **Same accessibility bar:** each sub-brand must meet the accessibility requirements in Digital Principles before it is published.
 - **Logo built from the parent rules:** a master logo file, a reversed version for dark backgrounds, and clear space and minimum sizes that follow Logo Guidelines.
-- **Retire properly:** when a sub-brand ends, the brand owner decides what happens to its domain, assets and records. Archive the assets and tell the brand owner.
+- **Retire properly:** when a sub-brand ends, decide what happens to its domain, assets and records, and archive the assets.
 
 ---
 
 **Do**
-- Agree a sub-brand with the brand owner before using it
+- Agree a sub-brand before using it
 
 **Don't**
-- Launch a sub-brand without a named owner
+- Launch a sub-brand before it is agreed
 
 ---
 
@@ -231,11 +231,11 @@ Sales material starts from our templates. Copy a template and create your own fi
 
 | Template | What to start from |
 |---|---|
-| Product pitch: Pulse for education | The latest approved Education pitch |
-| Sales deck: Automations | The Automations sales deck. Education and payment-processing versions follow the same flow. |
+| Product pitch | The latest approved product pitch |
+| Sales deck | The latest approved sales deck |
 | Proposal (Word) | The proposal template |
 
-### Pulse Education pitch flow
+### Example product pitch flow
 - Title: product name and one-line promise
 - The owner view: what the decision maker sees
 - What changes for the owner: before and after
@@ -261,7 +261,7 @@ Sales material starts from our templates. Copy a template and create your own fi
 - Discovery: we review and rate each process before building
 - Next step: pick one process and watch it run on your data
 
-These flows are a starting point. Keep the order that suits the buyer.
+These flows are examples, not requirements. Keep the order that suits the buyer.
 
 ### Building a deck from a template
 - Copy the template and create a new file. Don't edit the template itself.
@@ -287,7 +287,7 @@ These flows are a starting point. Keep the order that suits the buyer.
 
 **Proposal voice**
 - Short sentences.
-- We prefer no em dashes. An en dash works for ranges, such as "Weeks 1–2".
+- No em dashes. An en dash works for ranges, such as "Weeks 1–2".
 - One price, not an itemised quote.
 - Use the fixed phrases the templates use, such as "Free evaluation" and "Supervised go-live".
 
@@ -310,7 +310,7 @@ AI can help us draft, research and check work. It does not replace the people wh
 - **Messaging is written by people.** Headlines, taglines, positioning and client-facing messages are written or rewritten by a person. AI can suggest options, but a person decides what we say.
 - **Check the facts.** Check every claim, number, name, date, client reference and product capability against a trusted source. AI can invent details that sound right.
 - **Protect client and confidential information.** Never put client, financial or confidential information into a tool outside the approved list. The approved tools are listed below.
-- **Images.** AI images and video follow the rules in Visual Language, including the rule against AI images that imitate a real person or client. Image and video tools are not formally approved, so check the output carefully before use.
+- **Images.** AI images and video follow the rules in Visual Language, including the rule against AI images that imitate a real person or client.
 
 ### Approved AI tools
 

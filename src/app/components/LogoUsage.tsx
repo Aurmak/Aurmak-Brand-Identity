@@ -24,7 +24,7 @@ export function LogoUsage() {
             Logo lockups
           </h2>
           <p className="text-[#545F7E] text-base md:text-base leading-relaxed max-w-3xl">
-            AURMAK uses two primary logo lockups: Horizontal and Vertical. The Horizontal lockup is the primary version and should be used in most cases. The Vertical lockup is provided for applications where horizontal space is limited or where a centered aesthetic is desired.
+            AURMAK uses two primary logo lockups: Horizontal and Vertical. The Horizontal lockup is the primary version and should be used in most cases. The Vertical lockup is provided for applications where horizontal space is limited or where a centred aesthetic is desired.
           </p>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
@@ -38,7 +38,7 @@ export function LogoUsage() {
                 <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#282973] h-80">
                   <img src={logoInverted} alt="AURMAK Horizontal Logo Inverted" className="w-full max-w-[400px] h-auto object-contain" />
                 </div>
-                <p className="text-[#545F7E] text-base italic">Use for web headers, stationery, and standard documentation.</p>
+                <p className="text-[#545F7E] text-base italic">Use for web headers, stationery and standard documentation.</p>
               </div>
             </div>
 
@@ -60,10 +60,10 @@ export function LogoUsage() {
           </div>
         </div>
 
-        {/* Symbol Usage */}
+        {/* Symbol usage */}
         <div className="space-y-6 md:space-y-8">
           <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
-            Symbol Usage
+            Symbol usage
           </h2>
           <p className="text-[#545F7E] text-base md:text-base leading-relaxed">
             The AURMAK symbol can be used independently in situations where space is limited or the brand is already well-established. The symbol represents innovation, stability, and forward-thinking design.
@@ -89,14 +89,14 @@ export function LogoUsage() {
                 />
               </div>
               <p className="text-[#545F7E] text-center" style={{ fontSize: '16px' }}>
-                Symbol on navy background
+                Symbol on dark background
               </p>
             </div>
           </div>
 
           <div className="bg-[#EEF7FC] p-6 md:p-8 rounded-sm border border-gray-200">
             <h3 className="text-[#282973] mb-4 text-lg md:text-xl font-semibold">
-              When to Use the Symbol
+              When to use the symbol
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
               <div>
@@ -165,7 +165,7 @@ export function LogoUsage() {
         {/* Clear Space */}
         <div className="space-y-6 md:space-y-8">
           <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
-            Clear Space & Minimum Size
+            Clear space and minimum size
           </h2>
           <div className="bg-[#EEF7FC] border border-gray-200 p-6 md:p-12">
             <div className="relative flex items-center justify-center overflow-x-auto py-12 md:py-16">
@@ -316,20 +316,6 @@ export function LogoUsage() {
               </div>
             </div>
 
-            {/* Do - Maintain proportions */}
-            <div className="space-y-4">
-              <div className="border-2 border-green-600 p-6 flex items-center justify-center bg-white h-40">
-                <img 
-                  src={logoImage} 
-                  alt="Correct logo usage" 
-                  className="h-16 w-auto"
-                />
-              </div>
-              <div className="flex items-center space-x-2 text-green-600">
-                <Check className="w-5 h-5" />
-                <span style={{ fontSize: '16px', fontWeight: '600' }}>Maintain proportions</span>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -354,13 +340,13 @@ export function LogoUsage() {
           </ul>
         </div>
 
-        {/* Partnership & Co-branding */}
+        {/* Partnership and co-branding */}
         <div className="space-y-6 md:space-y-8 pb-16">
           <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
-            Partnership & Co-branding
+            Partnership and co-branding
           </h2>
           <p className="text-[#545F7E] text-base md:text-base leading-relaxed max-w-3xl">
-            When the AURMAK logo is used alongside a partner or portfolio company logo, use a vertical separator line. The AURMAK logo should aim to maintain equal visual weight with the partner logo.
+            When the AURMAK logo is used alongside another company's logo, use a vertical separator line. Keep equal visual weight between the AURMAK logo and the partner logo.
           </p>
           <div className="bg-[#EEF7FC] border border-gray-200 p-12">
             <div className="flex items-center justify-center space-x-12">
@@ -378,8 +364,8 @@ export function LogoUsage() {
                 <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>Set smaller than the logo wordmark, and always after it.</p>
               </div>
               <div className="space-y-2">
-                <p className="text-[#282973] font-semibold" style={{ fontSize: '16px' }}>Visual Hierarchy</p>
-                <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>AURMAK appears first (left or top) in co-branded communications initiated by Venture Studio.</p>
+                <p className="text-[#282973] font-semibold" style={{ fontSize: '16px' }}>Visual hierarchy</p>
+                <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>AURMAK appears first (left or top) in every co-branded piece, whoever starts it.</p>
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ const rules = [
   },
   {
     title: 'Images',
-    body: 'AI images and video follow the rules in Visual Language, including the rule against AI images that imitate a real person or client. Image and video tools are not formally approved, so check the output carefully before use.',
+    body: 'AI images and video follow the rules in Visual Language, including the rule against AI images that imitate a real person or client.',
   },
 ];
 
