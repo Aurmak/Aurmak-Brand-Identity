@@ -29,12 +29,10 @@ Logo details were checked against the AURMAK website repository (`public/aurmak-
 
 This guide sets out how AURMAK looks, sounds and presents itself. It is written for everyone at AURMAK.
 
-**Who we are.** AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation and AI-enabled operational intelligence. We work with organisations that run complex operations, and we stay accountable for delivery after go-live.
-
 ### What is in this guide
 
-- [Brand Overview](#3-brand-overview): who we are, the parent brand and sub-brands, and how we sound.
-- [Logo Guidelines](#4-logo-guidelines): the logo files, clear space, and how not to alter the logo.
+- [Brand Overview](#3-brand-overview): who we are, the parent brand and sub-brands and how we sound.
+- [Logo Guidelines](#4-logo-guidelines): the logo files, clear space and how not to alter the logo.
 - [Visual Language](#5-visual-language): photography, imagery and graphic elements.
 - [Digital Principles](#6-digital-principles): principles for any AURMAK website, app or product.
 - [Sub-Brands](#7-sub-brands): the rules for sub-brands, products and ventures.
@@ -94,7 +92,7 @@ AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Ea
 ### Logo lockups
 
 - Horizontal (Primary): Use for web headers, stationery and standard documentation.
-- Vertical (Secondary): Use for social media posts, vertical banners, and centred layouts.
+- Vertical (Secondary): Use for social media posts, vertical banners and centred layouts.
 - Light-background and dark-background versions. On navy, use the white-wordmark version (`design/aurmak-logo-dark-background.svg`).
 
 ### Symbol usage
@@ -123,13 +121,13 @@ AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Ea
 
 ## 5. Visual Language
 
-### Visual Principles
+### Visual principles
 
-- **Engineering Clarity:** structured grids, clean lines, deliberate hierarchy.
-- **Human but Professional:** authentic, calm, credible.
-- **Data Visualisation:** thin-line diagrams and uncluttered technical overlays.
+- **Engineering clarity:** structured grids, clean lines, deliberate hierarchy.
+- **Human but professional:** authentic, calm, credible.
+- **Data visualisation:** thin-line diagrams and uncluttered technical overlays.
 
-### Imagery & Motion
+### Imagery and motion
 
 - **Stock imagery:** choose specific, real subjects over generic globes and wireframe maps. Avoid green, magenta and neon-heavy imagery.
 - **Motion:** short and subtle, with gentle entrance effects. Avoid blocking reading. Stop for users who prefer reduced motion.
@@ -142,7 +140,7 @@ Real, stock and AI-generated images are all permitted. The same rules apply to e
 - **Stock and AI-generated:** choose images that match the tone. Avoid generic clichés such as handshakes and glowing circuits. Check AI output for distorted hands, text and logos. Avoid AI images that imitate a real person or client.
 - **Treatment:** light colour grading only. Use a dark overlay where text sits on a photo. No heavy filters, neon tints or added effects.
 
-### Graphic Elements
+### Graphic elements
 
 - Geometric linework and grid-led composition.
 - Subtle overlays over decorative noise.
@@ -170,9 +168,9 @@ These principles apply to any AURMAK website, app or product. They do not set th
 - **Interactive elements stand out:** make calls to action and links easy to spot, and use emphasis sparingly.
 - **Feedback is clear:** pair status messages with an icon or text, never colour alone.
 - **Accessible by default:** meet WCAG 2.2 AA. Accessibility is part of the design, not a final check.
-- **Respect the user:** keep motion short and optional, load fast on slow connections, and work on phones as well as desktops.
+- **Respect the user:** keep motion short and optional, load fast on slow connections and work on phones as well as desktops.
 
-### Using the Brand in Digital
+### Using the brand in digital
 
 Use from this guide:
 - The logo files and their clear-space rules
@@ -184,7 +182,7 @@ Decided by each product:
 - Exact type sizes for each screen
 - Animation details and page transitions
 
-### Accessibility Requirements
+### Accessibility requirements
 
 - Use semantic HTML: real buttons, links, headings and lists
 - Every interactive element works with the keyboard alone
@@ -212,8 +210,8 @@ Sub-brands, products and ventures can have their own look and logos. This sectio
 - **Agree first:** every sub-brand is agreed before use. Each one has a domain, look and relationship to AURMAK. Sub-brands are not listed in this guide.
 - **Own look:** a sub-brand sets its own colours and typefaces, . It does not reuse the AURMAK look.
 - **Same accessibility bar:** each sub-brand must meet the accessibility requirements in Digital Principles before it is published.
-- **Logo built from the parent rules:** a master logo file, a reversed version for dark backgrounds, and clear space and minimum sizes that follow Logo Guidelines.
-- **Retire properly:** when a sub-brand ends, decide what happens to its domain, assets and records, and archive the assets.
+- **Logo built from the parent rules:** a master logo file, a reversed version for dark backgrounds and clear space and minimum sizes that follow Logo Guidelines.
+- **Retire properly:** when a sub-brand ends, decide what happens to its domain, assets and records and archive the assets.
 
 ---
 
@@ -265,10 +263,10 @@ These flows are examples, not requirements. Keep the order that suits the buyer.
 
 ### Building a deck from a template
 - Copy the template and create a new file. Don't edit the template itself.
-- One message per slide: a headline, one supporting line, and only the points the buyer needs.
+- One message per slide: a headline, one supporting line and only the points the buyer needs.
 - Headlines are short statements that end in a full stop.
 - Put a short caps kicker above the headline, as the templates do.
-- In decks, quote numbers as ranges, and state the basis on the slide or in the notes.
+- In decks, quote numbers as ranges and state the basis on the slide or in the notes.
 - Change the order or length to suit the buyer, and note any change.
 - End with one next step, not a list of options.
 - Keep client names, prices and contract terms in a client copy, rather than the shared template.

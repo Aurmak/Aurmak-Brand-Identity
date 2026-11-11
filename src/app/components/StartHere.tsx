@@ -1,6 +1,6 @@
 const sections = [
-  { id: 'brand-overview', name: 'Brand Overview', detail: 'Who we are, the parent brand and sub-brands, and how we sound.' },
-  { id: 'logo-guidelines', name: 'Logo Guidelines', detail: 'The logo files, clear space, and how not to alter the logo.' },
+  { id: 'brand-overview', name: 'Brand Overview', detail: 'Who we are, the parent brand and sub-brands and how we sound.' },
+  { id: 'logo-guidelines', name: 'Logo Guidelines', detail: 'The logo files, clear space and how not to alter the logo.' },
   { id: 'visual-language', name: 'Visual Language', detail: 'Photography, imagery and graphic elements.' },
   { id: 'digital-principles', name: 'Digital Principles', detail: 'Principles for any AURMAK website, app or product.' },
   { id: 'sub-brands', name: 'Sub-Brands', detail: 'The rules for sub-brands, products and ventures.' },
@@ -19,15 +19,6 @@ export function StartHere({ onNavigate }: { onNavigate: (id: string) => void }) 
           <div className="mb-6 mt-4 h-1 w-16 bg-[#27AAE1]"></div>
           <p className="text-[#545F7E]" style={{ fontSize: '20px', lineHeight: '1.6', maxWidth: '48rem' }}>
             This guide sets out how AURMAK looks, sounds and presents itself. It is written for everyone at AURMAK.
-          </p>
-        </div>
-
-        <div className="border-l-4 border-[#27AAE1] bg-[#EEF7FC] p-8">
-          <h2 className="mb-3 text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>Who we are</h2>
-          <p className="text-[#545F7E]" style={{ fontSize: '18px', lineHeight: '1.6' }}>
-            AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation and
-            AI-enabled operational intelligence. We work with organisations that run complex operations, and we
-            stay accountable for delivery after go-live.
           </p>
         </div>
 

@@ -54,7 +54,7 @@ export function LogoUsage() {
                 <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#282973] h-80">
                   <img src={verticalLogoInverted} alt="AURMAK Vertical Logo Inverted" className="w-full max-w-[240px] h-auto object-contain" />
                 </div>
-                <p className="text-[#545F7E] text-base italic">Use for social media posts, vertical banners, and centred layouts.</p>
+                <p className="text-[#545F7E] text-base italic">Use for social media posts, vertical banners and centred layouts.</p>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ export function LogoUsage() {
             Symbol usage
           </h2>
           <p className="text-[#545F7E] text-base md:text-base leading-relaxed">
-            The AURMAK symbol can be used independently in situations where space is limited or the brand is already well-established. The symbol represents innovation, stability, and forward-thinking design.
+            The AURMAK symbol can be used independently in situations where space is limited or the brand is already well-established. The symbol represents innovation and stability design.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {/* Symbol on white */}
@@ -101,7 +101,7 @@ export function LogoUsage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
               <div>
                 <p className="text-green-600 font-semibold mb-3" style={{ fontSize: '16px' }}>
-                  ✓ Appropriate Uses
+                  ✓ Appropriate uses
                 </p>
                 <ul className="space-y-2 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                   <li className="flex items-start">
@@ -128,7 +128,7 @@ export function LogoUsage() {
               </div>
               <div>
                 <p className="text-red-600 font-semibold mb-3" style={{ fontSize: '16px' }}>
-                  ✗ When Not to Use the Symbol
+                  ✗ When not to use the symbol
                 </p>
                 <ul className="space-y-2 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                   <li className="flex items-start">
@@ -156,7 +156,7 @@ export function LogoUsage() {
             </div>
             <div className="mt-6 pt-6 border-t border-gray-300">
               <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                <strong>Minimum Size:</strong> Do not reproduce the symbol smaller than 8mm in print.
+                <strong>Minimum size:</strong> Do not reproduce the symbol smaller than 8mm in print.
               </p>
             </div>
           </div>
@@ -194,16 +194,16 @@ export function LogoUsage() {
                     </div>
                   </div>
                   
-                  {/* Left measurement indicator */}
-                  <div className="absolute top-1/2 -translate-y-1/2 flex items-center pointer-events-none" style={{ left: '-24px' }}>
-                    <div className="text-[#27AAE1] md:transform md:-rotate-90 whitespace-nowrap" style={{ fontSize: '15px', fontWeight: '600' }}>
+                  {/* Left measurement indicator: sits outside the dashed box */}
+                  <div className="absolute top-1/2 pointer-events-none" style={{ right: '100%', marginRight: '12px', transform: 'translateY(-50%)' }}>
+                    <div className="text-[#27AAE1] whitespace-nowrap" style={{ fontSize: '15px', fontWeight: '600', writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
                       Clear space
                     </div>
                   </div>
-                  
-                  {/* Right measurement indicator */}
-                  <div className="absolute top-1/2 -translate-y-1/2 flex items-center pointer-events-none" style={{ right: '-24px' }}>
-                    <div className="text-[#27AAE1] md:transform md:rotate-90 whitespace-nowrap" style={{ fontSize: '15px', fontWeight: '600' }}>
+
+                  {/* Right measurement indicator: sits outside the dashed box */}
+                  <div className="absolute top-1/2 pointer-events-none" style={{ left: '100%', marginLeft: '12px', transform: 'translateY(-50%)' }}>
+                    <div className="text-[#27AAE1] whitespace-nowrap" style={{ fontSize: '15px', fontWeight: '600', writingMode: 'vertical-rl' }}>
                       Clear space
                     </div>
                   </div>
@@ -212,15 +212,11 @@ export function LogoUsage() {
             </div>
             <div className="mt-8 space-y-3 text-center">
               <p className="text-[#545F7E]" style={{ fontSize: '18px', lineHeight: '1.6' }}>
-                Maintain a minimum clear space of 20 pixels around all sides of the logo. This ensures the logo remains uncluttered and maintains its visual impact in all applications.
+                Keep clear space on all sides of the logo. This ensures the logo remains uncluttered and maintains its visual impact in all applications.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 pt-6 border-t border-gray-300">
+              <div className="mt-6 pt-6 border-t border-gray-300">
                 <div>
-                  <p className="text-[#282973]" style={{ fontSize: '16px', fontWeight: '600' }}>Minimum Size (Digital)</p>
-                  <p className="text-[#545F7E]" style={{ fontSize: '16px' }}>120px wide</p>
-                </div>
-                <div>
-                  <p className="text-[#282973]" style={{ fontSize: '16px', fontWeight: '600' }}>Minimum Size (Print)</p>
+                  <p className="text-[#282973]" style={{ fontSize: '16px', fontWeight: '600' }}>Minimum size (print)</p>
                   <p className="text-[#545F7E]" style={{ fontSize: '16px' }}>30mm wide</p>
                 </div>
               </div>
@@ -260,7 +256,7 @@ export function LogoUsage() {
               </div>
               <div className="flex items-center space-x-2 text-red-600">
                 <X className="w-5 h-5" />
-                <span style={{ fontSize: '16px', fontWeight: '600' }}>Don't rotate</span>
+                <span style={{ fontSize: '16px', fontWeight: '600' }}>Avoid rotating</span>
               </div>
             </div>
 
@@ -322,7 +318,7 @@ export function LogoUsage() {
         {/* Accessibility Note */}
         <div className="bg-[#EEF7FC] border-l-4 border-[#27AAE1] p-8">
           <h3 className="text-[#282973] mb-3" style={{ fontSize: '22px', fontWeight: '600' }}>
-            Accessibility Guidelines
+            Accessibility guidelines
           </h3>
           <ul className="space-y-2 text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>
             <li className="flex items-start">

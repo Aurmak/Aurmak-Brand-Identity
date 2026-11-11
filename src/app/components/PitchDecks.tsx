@@ -44,10 +44,10 @@ const salesDeckExample = [
 
 const deckRules = [
   'Copy the template and create a new file. Don\'t edit the template itself.',
-  'One message per slide: a headline, one supporting line, and only the points the buyer needs.',
+  'One message per slide: a headline, one supporting line and only the points the buyer needs.',
   'Headlines are short statements that end in a full stop.',
   'Put a short caps kicker above the headline, as the templates do.',
-  'In decks, quote numbers as ranges, and state the basis on the slide or in the notes.',
+  'In decks, quote numbers as ranges and state the basis on the slide or in the notes.',
   'Change the order or length to suit the buyer, and note any change.',
   'End with one next step, not a list of options.',
   'Keep client names, prices and contract terms in a client copy, rather than the shared template.',

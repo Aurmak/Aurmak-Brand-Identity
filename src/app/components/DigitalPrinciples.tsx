@@ -67,7 +67,7 @@ export function DigitalPrinciples() {
         </div>
 
         <div className="space-y-8">
-          <h2 className="text-[#282973]" style={{ fontSize: '30px', fontWeight: 600 }}>Using the Brand in Digital</h2>
+          <h2 className="text-[#282973]" style={{ fontSize: '30px', fontWeight: 600 }}>Using the brand in digital</h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div className="rounded-sm border border-gray-200 bg-[#EEF7FC] p-6">
               <h3 className="mb-2 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Use from this guide</h3>
@@ -89,7 +89,7 @@ export function DigitalPrinciples() {
         </div>
 
         <div className="border-l-4 border-[#27AAE1] bg-[#EEF7FC] p-8">
-          <h2 className="mb-4 text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>Accessibility Requirements</h2>
+          <h2 className="mb-4 text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>Accessibility requirements</h2>
           <ul className="grid grid-cols-1 gap-3 text-[#545F7E] md:grid-cols-2" style={{ fontSize: '16px', lineHeight: '1.6' }}>
             {accessibility.map((a) => (
               <li key={a}>• {a}</li>

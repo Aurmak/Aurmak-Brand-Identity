@@ -12,7 +12,7 @@ export function VisualDirection() {
 
         <div className="space-y-8">
           <h2 className="text-[#282973]" style={{ fontSize: '30px', fontWeight: '600' }}>
-            Visual Principles
+            Visual principles
           </h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 md:gap-8">
             <div className="space-y-4">
@@ -28,10 +28,10 @@ export function VisualDirection() {
                 </svg>
               </div>
               <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                Engineering Clarity
+                Engineering clarity
               </h3>
               <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                Clean lines, structured layouts, and a disciplined grid. Every visual should feel considered rather than decorative.
+                Clean lines, structured layouts and a disciplined grid. Every visual should feel considered rather than decorative.
               </p>
             </div>
             <div className="space-y-4">
@@ -42,10 +42,10 @@ export function VisualDirection() {
                 </svg>
               </div>
               <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                Human but Professional
+                Human but professional
               </h3>
               <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                Show real working environments, calm pacing, and intentional spacing. The overall tone should feel credible and composed.
+                Show real working environments, calm pacing and intentional spacing. The overall tone should feel credible and composed.
               </p>
             </div>
             <div className="space-y-4">
@@ -60,10 +60,10 @@ export function VisualDirection() {
                 </svg>
               </div>
               <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                Data Visualisation
+                Data visualisation
               </h3>
               <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                Use thin-line diagrams, subtle technical overlays, and uncluttered charts to reinforce precision and analytical depth.
+                Use thin-line diagrams, subtle technical overlays and uncluttered charts to reinforce precision and analytical depth.
               </p>
             </div>
           </div>
@@ -71,7 +71,7 @@ export function VisualDirection() {
 
         <div className="space-y-8">
           <h2 className="text-[#282973]" style={{ fontSize: '30px', fontWeight: '600' }}>
-            Graphic Elements
+            Graphic elements
           </h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
             <div className="rounded-sm border border-gray-200 bg-white p-8">
@@ -161,7 +161,7 @@ export function VisualDirection() {
 
         <div className="space-y-8">
           <h2 className="text-[#282973]" style={{ fontSize: '30px', fontWeight: 600 }}>
-            Imagery & Motion
+            Imagery and motion
           </h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {[

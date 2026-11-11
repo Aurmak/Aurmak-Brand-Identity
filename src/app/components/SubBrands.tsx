@@ -14,11 +14,11 @@ const rules = [
   },
   {
     title: 'Logo built from the parent rules',
-    body: 'Each sub-brand has a master logo file, a reversed version for dark backgrounds, and clear space and minimum sizes that follow the Logo Guidelines section.',
+    body: 'Each sub-brand has a master logo file, a reversed version for dark backgrounds and clear space and minimum sizes that follow the Logo Guidelines section.',
   },
   {
     title: 'Retire properly',
-    body: 'When a sub-brand ends, decide what happens to its domain, assets and records, and archive the assets.',
+    body: 'When a sub-brand ends, decide what happens to its domain, assets and records and archive the assets.',
   },
 ];
 
