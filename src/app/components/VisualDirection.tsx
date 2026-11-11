@@ -167,7 +167,7 @@ export function VisualDirection() {
             {[
               {
                 title: 'Stock imagery',
-                body: 'Blue technical imagery works best: globes with city points, wireframe world maps, and developer portraits in a dark room. Avoid green, magenta and neon-heavy imagery.',
+                body: 'Choose specific, real subjects over generic globes and wireframe maps. Avoid green, magenta and neon-heavy imagery.',
               },
             ].map((card) => (
               <div key={card.title} className="rounded-sm border border-gray-200 bg-white p-8">
@@ -204,7 +204,7 @@ export function VisualDirection() {
               <h3 className="mb-3 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Stock and AI-generated</h3>
               <ul className="space-y-2 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                 <li>• Choose images that match the tone above</li>
-                <li>• Avoid generic cliches such as handshakes and glowing circuits</li>
+                <li>• Avoid generic clichés such as handshakes and glowing circuits</li>
                 <li>• Check AI output for distorted hands, text and logos before use</li>
                 <li>• Avoid AI images that imitate a real person or client</li>
               </ul>
@@ -213,7 +213,7 @@ export function VisualDirection() {
           <div className="border-l-4 border-[#27AAE1] bg-[#EEF7FC] p-6">
             <p className="text-[#282973]" style={{ fontSize: '18px', fontWeight: 600 }}>Treatment</p>
             <p className="mt-2 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-              We suggest light grading, and a dark overlay where text sits on a photo. Heavy filters, neon tints and added effects are best avoided.
+              We suggest light grading, and a dark overlay where text sits on a photo. Avoid heavy filters, neon tints and added effects.
             </p>
           </div>
         </div>

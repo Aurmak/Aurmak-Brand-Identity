@@ -33,7 +33,7 @@ const automations = [
   'Problem in one line, in the buyer\'s own terms',
   'The buyer\'s day: the repetitive work described plainly',
   'Capabilities: six ways we take work off the team',
-  'Where it applies: finance, inbox, buildings',
+  'Where it applies: finance, email, operations',
   'Examples of work done overnight, to the buyer\'s rules',
   'Using data they already have: a building example',
   'Keep your systems: we work on top, with no migration',
@@ -47,9 +47,9 @@ const deckRules = [
   'One message per slide: a headline, one supporting line, and only the points the buyer needs.',
   'Headlines are short statements that end in a full stop.',
   'Put a short caps kicker above the headline, as the templates do.',
-  'Quote numbers as ranges, and state the basis on the slide or in the notes.',
+  'In decks, quote numbers as ranges, and state the basis on the slide or in the notes.',
   'Change the order or length to suit the buyer, and note any change.',
-  'We suggest ending with one next step, rather than a list of options.',
+  'End with one next step, not a list of options.',
   'Keep client names, prices and contract terms in a client copy, rather than the shared template.',
 ];
 
@@ -116,7 +116,7 @@ export function PitchDecks() {
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div className="space-y-6">
-            <h2 className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>Product pitch flow</h2>
+            <h2 className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>Pulse Education pitch flow</h2>
             <Bullets items={pulseEducation} />
           </div>
           <div className="space-y-6">
@@ -149,7 +149,7 @@ export function PitchDecks() {
             </ul>
           </div>
         </div>
-        <DoDont dos={["Copy the template and create a new file", "End every deck with one clear next step", "Quote numbers as ranges, with their basis"]} donts={["Edit the shared template itself", "Put client names, prices or contract terms in a shared template"]} />
+        <DoDont dos={["Copy the template and create a new file", "End every deck with one clear next step", "In decks, quote numbers as ranges, with their basis"]} donts={["Edit the shared template itself", "Put client names, prices or contract terms in a shared template"]} />
       </div>
     </div>
   );

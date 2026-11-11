@@ -21,10 +21,10 @@ export function LogoUsage() {
         {/* Logo Variants */}
         <div className="space-y-6 md:space-y-10">
           <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
-            Logo Lockups
+            Logo lockups
           </h2>
           <p className="text-[#545F7E] text-base md:text-base leading-relaxed max-w-3xl">
-            AURMAK utilizes two primary logo lockups: Horizontal and Vertical. The Horizontal lockup is the primary version and should be used in most cases. The Vertical lockup is provided for applications where horizontal space is limited or where a centered aesthetic is desired.
+            AURMAK uses two primary logo lockups: Horizontal and Vertical. The Horizontal lockup is the primary version and should be used in most cases. The Vertical lockup is provided for applications where horizontal space is limited or where a centered aesthetic is desired.
           </p>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
@@ -54,7 +54,7 @@ export function LogoUsage() {
                 <div className="border border-gray-200 p-12 flex items-center justify-center bg-[#282973] h-80">
                   <img src={verticalLogoInverted} alt="AURMAK Vertical Logo Inverted" className="w-full max-w-[240px] h-auto object-contain" />
                 </div>
-                <p className="text-[#545F7E] text-base italic">Use for social media posts, vertical banners, and centered layouts.</p>
+                <p className="text-[#545F7E] text-base italic">Use for social media posts, vertical banners, and centred layouts.</p>
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ export function LogoUsage() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>
-                    <span>Large-format signage (where space allows)</span>
+                    <span>Large-format signage, where the full logo fits</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>
@@ -156,7 +156,7 @@ export function LogoUsage() {
             </div>
             <div className="mt-6 pt-6 border-t border-gray-300">
               <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                <strong>Minimum Size:</strong> The symbol is best not reproduced smaller than 8mm in print, to maintain clarity and visual impact.
+                <strong>Minimum Size:</strong> Do not reproduce the symbol smaller than 8mm in print.
               </p>
             </div>
           </div>
@@ -349,7 +349,7 @@ export function LogoUsage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#27AAE1] mr-2">•</span>
-              <span>For print materials, ensure logo is reproduced at minimum 300 DPI resolution</span>
+              <span>For print materials, ensure the logo is reproduced at minimum 300 DPI resolution</span>
             </li>
           </ul>
         </div>
@@ -372,13 +372,14 @@ export function LogoUsage() {
             </div>
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 border-t border-gray-300">
               <div className="space-y-2">
-                <p className="text-[#282973] font-semibold" style={{ fontSize: '16px' }}>Endorsement Line</p>
+                <p className="text-[#282973] font-semibold" style={{ fontSize: '16px' }}>Endorsement line</p>
+                <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>Venture Studio is AURMAK's in-house studio, which builds our own products. Use this line on products it builds.</p>
                 <p className="text-[#545F7E] italic" style={{ fontSize: '15px' }}>"An AURMAK Venture Studio Company"</p>
                 <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>Set smaller than the logo wordmark, and always after it.</p>
               </div>
               <div className="space-y-2">
                 <p className="text-[#282973] font-semibold" style={{ fontSize: '16px' }}>Visual Hierarchy</p>
-                <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>AURMAK should ideally appear first (left or top) in co-branded communications initiated by the studio.</p>
+                <p className="text-[#545F7E]" style={{ fontSize: '15px' }}>AURMAK appears first (left or top) in co-branded communications initiated by Venture Studio.</p>
               </div>
             </div>
           </div>

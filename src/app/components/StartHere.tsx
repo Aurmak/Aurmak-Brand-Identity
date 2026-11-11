@@ -54,7 +54,7 @@ export function StartHere({ onNavigate }: { onNavigate: (id: string) => void }) 
 
         <p className="max-w-3xl text-[#545F7E]" style={{ fontSize: '18px', lineHeight: '1.6' }}>
           Where a section ends with a Do and Don't list, treat it as the guidance to follow unless there is a good
-          reason not to. Questions about the brand go to the brand owner, listed in the brand register.
+          reason not to. Questions about the brand go to the brand owner.
         </p>
       </div>
     </div>

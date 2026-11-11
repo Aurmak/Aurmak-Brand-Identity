@@ -27,7 +27,7 @@ Logo details were checked against the AURMAK website repository (`public/aurmak-
 
 ## 2. About This Guide
 
-This guide sets out how AURMAK looks, sounds and presents itself. It is written for everyone at AURMAK, and for the partners and suppliers who work on our behalf.
+This guide sets out how AURMAK looks, sounds and presents itself. It is written for everyone at AURMAK.
 
 **Who we are.** AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation and AI-enabled operational intelligence. We work with organisations that run complex operations, and we stay accountable for delivery after go-live.
 
@@ -43,19 +43,19 @@ This guide sets out how AURMAK looks, sounds and presents itself. It is written 
 
 **Email signature:** the signature tool we designed, for every staff email. You need an AURMAK account to open it. Find it on the Business Ops Hub SharePoint site: search for "email signature".
 
-Where a section ends with a Do and Don't list, treat it as the guidance to follow unless there is a good reason not to. Questions about the brand go to the brand owner, listed in the brand register.
+Where a section ends with a Do and Don't list, treat it as the guidance to follow unless there is a good reason not to. Questions about the brand go to the brand owner.
 
 ---
 
 ## 3. Brand Overview
 
-### Who We Are
+### Who we are
 
-AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation, and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery to modernise systems, build scalable products, and strengthen the infrastructure that supports growth.
+AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery to modernise systems, build scalable products, and strengthen the infrastructure that supports growth.
 
 ### Brand Architecture
 
-AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one is recorded in the brand register, which holds its name, owner and relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
+AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a named brand owner and a clear relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
 
 - **AURMAK (parent):** defines the core identity in this guide.
 - **Sub-brands:** have their own look, within the Sub-Brands rules.
@@ -91,7 +91,7 @@ AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Ea
 
 ## 4. Logo Guidelines
 
-### Logo Lockups
+### Logo lockups
 
 - Horizontal (Primary): Use for web headers, stationery, and standard documentation.
 - Vertical (Secondary): Use for social media posts, vertical banners, and centred layouts.
@@ -131,7 +131,7 @@ AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Ea
 
 ### Imagery & Motion
 
-- **Stock imagery:** blue technical imagery only: globes with city points, wireframe world maps, developer portraits in a dark room. Avoid green, magenta and neon-heavy imagery.
+- **Stock imagery:** choose specific, real subjects over generic globes and wireframe maps. Avoid green, magenta and neon-heavy imagery.
 - **Motion:** short and subtle, with gentle entrance effects. Avoid blocking reading. Stop for users who prefer reduced motion.
 
 ### Photography
@@ -209,16 +209,16 @@ Decided by each product:
 
 Sub-brands, products and ventures can have their own look and logos. This section sets the rules they follow to stay recognisably part of AURMAK.
 
-- **Register first:** every sub-brand is recorded in the brand register before use. The record holds its name, owner, domain, look and relationship to AURMAK. Sub-brands are not listed in this guide.
-- **Own look:** a sub-brand sets its own colours and typefaces, and records them in the register. It does not reuse the AURMAK palette or typefaces.
-- **Same accessibility bar:** check each sub-brand against the accessibility requirements in Digital Principles before publishing.
+- **Agree first:** every sub-brand is agreed with the brand owner before use. Each one has a named owner, domain, look and relationship to AURMAK. Sub-brands are not listed in this guide.
+- **Own look:** a sub-brand sets its own colours and typefaces, and agrees them with the brand owner. It does not reuse the AURMAK palette or typefaces.
+- **Same accessibility bar:** each sub-brand must meet the accessibility requirements in Digital Principles before it is published.
 - **Logo built from the parent rules:** a master logo file, a reversed version for dark backgrounds, and clear space and minimum sizes that follow Logo Guidelines.
-- **Retire properly:** when a sub-brand ends, the brand owner decides what happens to its domain, assets and records. Archive the assets and update the register.
+- **Retire properly:** when a sub-brand ends, the brand owner decides what happens to its domain, assets and records. Archive the assets and tell the brand owner.
 
 ---
 
 **Do**
-- Register a sub-brand before using it
+- Agree a sub-brand with the brand owner before using it
 
 **Don't**
 - Launch a sub-brand without a named owner
@@ -235,7 +235,7 @@ Sales material starts from our templates. Copy a template and create your own fi
 | Sales deck: Automations | The Automations sales deck. Education and payment-processing versions follow the same flow. |
 | Proposal (Word) | The proposal template |
 
-### Product pitch flow
+### Pulse Education pitch flow
 - Title: product name and one-line promise
 - The owner view: what the decision maker sees
 - What changes for the owner: before and after
@@ -253,7 +253,7 @@ Sales material starts from our templates. Copy a template and create your own fi
 - Problem in one line, in the buyer's own terms
 - The buyer's day: the repetitive work described plainly
 - Capabilities: six ways we take work off the team
-- Where it applies: finance, inbox, buildings
+- Where it applies: finance, email, operations
 - Examples of work done overnight, to the buyer's rules
 - Using data they already have: a building example
 - Keep your systems: we work on top, with no migration
@@ -268,9 +268,9 @@ These flows are a starting point. Keep the order that suits the buyer.
 - One message per slide: a headline, one supporting line, and only the points the buyer needs.
 - Headlines are short statements that end in a full stop.
 - Put a short caps kicker above the headline, as the templates do.
-- Quote numbers as ranges, and state the basis on the slide or in the notes.
+- In decks, quote numbers as ranges, and state the basis on the slide or in the notes.
 - Change the order or length to suit the buyer, and note any change.
-- We suggest ending with one next step, rather than a list of options.
+- End with one next step, not a list of options.
 - Keep client names, prices and contract terms in a client copy, rather than the shared template.
 
 ### Proposal flow
@@ -294,7 +294,7 @@ These flows are a starting point. Keep the order that suits the buyer.
 **Do**
 - Copy the template and create a new file
 - End every deck with one clear next step
-- Quote numbers as ranges, with their basis
+- In decks, quote numbers as ranges, with their basis
 
 **Don't**
 - Edit the shared template itself
@@ -309,14 +309,14 @@ AI can help us draft, research and check work. It does not replace the people wh
 - **People review everything.** Any text, image or video made or edited with AI that goes into an email, marketing or sales material must be reviewed by a person before it is sent or published. That person is responsible for it.
 - **Messaging is written by people.** Headlines, taglines, positioning and client-facing messages are written or rewritten by a person. AI can suggest options, but a person decides what we say.
 - **Check the facts.** Check every claim, number, name, date, client reference and product capability against a trusted source. AI can invent details that sound right.
-- **Protect client and confidential information.** Only use approved AI tools for client, financial or confidential information. The approved tools are listed below.
-- **Images.** AI images follow the rules in Visual Language, including the rule against AI images that imitate a real person or client.
+- **Protect client and confidential information.** Never put client, financial or confidential information into a tool outside the approved list. The approved tools are listed below.
+- **Images.** AI images and video follow the rules in Visual Language, including the rule against AI images that imitate a real person or client. Image and video tools are not formally approved, so check the output carefully before use.
 
 ### Approved AI tools
 
 - **Claude:** approved for all work, including client and confidential material.
 
-Any other AI tool needs approval before it is used for AURMAK work.
+Other AI tools can be used, but confidential data only goes into the approved tools.
 
 ### Remove the common AI signs
 

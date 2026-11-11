@@ -6,7 +6,7 @@ const principles = [
   },
   {
     title: 'Clear hierarchy',
-    body: 'Headings, body copy and calls to action should be easy to tell apart at a glance, using the type principles in this guide.',
+    body: 'Headings, body copy and calls to action should be easy to tell apart at a glance, so the reader always knows where to look.',
   },
   {
     title: 'Interactive elements stand out',

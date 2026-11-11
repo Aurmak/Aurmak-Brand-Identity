@@ -1,16 +1,16 @@
 import { DoDont } from './DoDont';
 const rules = [
   {
-    title: 'Register first',
-    body: 'Every sub-brand is recorded in the brand register before it is used. The record holds its name, owner, domain, look and its relationship to AURMAK. This guide does not list sub-brands, because they change over time.',
+    title: 'Agree first',
+    body: 'Every sub-brand is agreed with the brand owner before it is used. Each one has a named owner, domain, look and relationship to AURMAK. This guide does not list sub-brands, because they change over time.',
   },
   {
     title: 'Own look',
-    body: 'A sub-brand sets its own colours and typefaces, and records them in the register. It does not reuse the AURMAK palette or typefaces.',
+    body: 'A sub-brand sets its own colours and typefaces, and agrees them with the brand owner. It does not reuse the AURMAK palette or typefaces.',
   },
   {
     title: 'Same accessibility bar',
-    body: 'We suggest checking each sub-brand against the accessibility requirements in Digital Principles before publishing.',
+    body: 'Each sub-brand must meet the accessibility requirements in Digital Principles before it is published.',
   },
   {
     title: 'Logo built from the parent rules',
@@ -18,7 +18,7 @@ const rules = [
   },
   {
     title: 'Retire properly',
-    body: 'When a sub-brand ends, the brand owner decides what happens to its domain, assets and records. Archive the assets and update the register.',
+    body: 'When a sub-brand ends, the brand owner decides what happens to its domain, assets and records. Archive the assets and tell the brand owner.',
   },
 ];
 
@@ -46,7 +46,7 @@ export function SubBrands() {
             </div>
           ))}
         </div>
-        <DoDont dos={["Register a sub-brand before using it"]} donts={["Launch a sub-brand without a named owner"]} />
+        <DoDont dos={["Agree a sub-brand with the brand owner before using it"]} donts={["Launch a sub-brand without a named owner"]} />
       </div>
     </div>
   );

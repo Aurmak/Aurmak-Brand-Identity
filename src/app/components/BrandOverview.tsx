@@ -19,10 +19,10 @@ export function BrandOverview() {
         {/* Positioning */}
         <div className="space-y-4 md:space-y-6">
           <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
-            Who We Are
+            Who we are
           </h2>
           <p className="text-[#545F7E] text-base md:text-lg lg:text-xl leading-relaxed">
-            AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation,
+            AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation
             and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery
             to modernise systems, build scalable products, and strengthen the infrastructure that supports growth.
           </p>
@@ -32,16 +32,16 @@ export function BrandOverview() {
         <div className="space-y-6 md:space-y-8">
           <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">Brand Architecture</h2>
           <p className="text-[#545F7E] text-base leading-relaxed max-w-3xl">
-            AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one is recorded in the brand register, which holds its name, owner and relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
+            AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a named brand owner and a clear relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
           </p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             <div className="border border-slate-200 bg-white p-6 shadow-sm">
               <div className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>AURMAK (parent)</div>
-              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Defines the core identity in this guide: logo, palette, typefaces, voice and imagery.</p>
+              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Defines the core identity in this guide: logo, voice, imagery and principles.</p>
             </div>
             <div className="border border-slate-200 bg-white p-6 shadow-sm">
               <div className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Sub-brands</div>
-              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Have their own palette and typefaces, within the rules in the Sub-Brands section.</p>
+              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Have their own look, within the rules in the Sub-Brands section.</p>
             </div>
             <div className="border border-slate-200 bg-white p-6 shadow-sm">
               <div className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Products and ventures</div>

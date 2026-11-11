@@ -15,11 +15,11 @@ const rules = [
   },
   {
     title: 'Protect client and confidential information',
-    body: 'Only use approved AI tools for client, financial or confidential information. The approved tools are listed below.',
+    body: 'Never put client, financial or confidential information into a tool outside the approved list. The approved tools are listed below.',
   },
   {
     title: 'Images',
-    body: 'AI images follow the rules in Visual Language, including the rule against AI images that imitate a real person or client.',
+    body: 'AI images and video follow the rules in Visual Language, including the rule against AI images that imitate a real person or client. Image and video tools are not formally approved, so check the output carefully before use.',
   },
 ];
 
@@ -63,7 +63,10 @@ export function AIUse() {
             <div className="text-[#545F7E]">Approved for all work, including client and confidential material.</div>
           </div>
           <p className="mt-6 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-            Any other AI tool needs approval before it is used for AURMAK work.
+            Other AI tools can be used, but confidential data only goes into the approved tools.
+          </p>
+          <p className="mt-3 text-[#545F7E]" style={{ fontSize: '14px', lineHeight: '1.6' }}>
+            Image and video generation tools are not formally approved. Staff can use them, but confidential data stays out of them.
           </p>
         </div>
 
