@@ -47,9 +47,9 @@ export function DigitalPrinciples() {
           </h1>
           <div className="mb-6 mt-4 h-1 w-16 bg-[#27AAE1]"></div>
           <p className="text-[#545F7E]" style={{ fontSize: '20px', lineHeight: '1.6', maxWidth: '48rem' }}>
-            These principles apply across the whole AURMAK family: the parent brand, sub-brands, products and ventures,
-            in every website, app and digital service. They are guiding rules, not a list of assets or styles. Each team
-            applies them in its own way, so that all of our digital work still feels like AURMAK.
+            These principles apply to the parent brand and to every sub-brand, product and venture, in every website,
+            app and digital service. They are guiding rules, not a list of assets or styles. Each team applies them in
+            its own way, so that all of our digital work still feels like AURMAK.
           </p>
         </div>
 
@@ -83,6 +83,7 @@ export function DigitalPrinciples() {
                 <li>• Component shapes, sizes and states</li>
                 <li>• Exact type sizes for each screen</li>
                 <li>• Animation details and page transitions</li>
+                <li>• A sub-brand's own look, within these principles (see Sub-Brands)</li>
               </ul>
             </div>
           </div>

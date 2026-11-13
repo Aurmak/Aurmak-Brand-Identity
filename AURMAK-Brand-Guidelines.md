@@ -163,7 +163,7 @@ Real, stock and AI-generated images are all permitted. The same rules apply to e
 
 ## 6. Digital Principles
 
-These principles apply across the whole AURMAK family: the parent brand, sub-brands, products and ventures, in every website, app and digital service. They are guiding rules, not a list of assets or styles. Each team applies them in its own way, so that all of our digital work still feels like AURMAK.
+These principles apply to the parent brand and to every sub-brand, product and venture, in every website, app and digital service. They are guiding rules, not a list of assets or styles. Each team applies them in its own way, so that all of our digital work still feels like AURMAK.
 
 ### Principles
 
@@ -185,6 +185,7 @@ Decided by each team:
 - Component shapes, sizes and states
 - Exact type sizes for each screen
 - Animation details and page transitions
+- A sub-brand's own look, within these principles (see Sub-Brands)
 
 ### Accessibility requirements
 
