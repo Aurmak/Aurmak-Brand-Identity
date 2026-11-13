@@ -47,9 +47,9 @@ export function DigitalPrinciples() {
           </h1>
           <div className="mb-6 mt-4 h-1 w-16 bg-[#27AAE1]"></div>
           <p className="text-[#545F7E]" style={{ fontSize: '20px', lineHeight: '1.6', maxWidth: '48rem' }}>
-            These principles apply to any AURMAK website, app or product. They do not set the look of any one site.
-            Each product team designs its own layouts, components and visual details within these principles, so that
-            the work still feels like AURMAK.
+            These principles apply across the whole AURMAK family: the parent brand, sub-brands, products and ventures,
+            in every website, app and digital service. They are guiding rules, not a list of assets or styles. Each team
+            applies them in its own way, so that all of our digital work still feels like AURMAK.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export function DigitalPrinciples() {
               </ul>
             </div>
             <div className="rounded-sm border border-gray-200 bg-[#EEF7FC] p-6">
-              <h3 className="mb-2 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Decided by each product</h3>
+              <h3 className="mb-2 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Decided by each team</h3>
               <ul className="space-y-2 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
                 <li>• Page layouts, grids and spacing</li>
                 <li>• Component shapes, sizes and states</li>

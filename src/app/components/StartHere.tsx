@@ -2,7 +2,7 @@ const sections = [
   { id: 'brand-overview', name: 'Brand Overview', detail: 'Who we are, the parent brand and sub-brands and how we sound.' },
   { id: 'logo-guidelines', name: 'Logo Guidelines', detail: 'The logo files, clear space and how not to alter the logo.' },
   { id: 'visual-language', name: 'Visual Language', detail: 'Photography, imagery and graphic elements.' },
-  { id: 'digital-principles', name: 'Digital Principles', detail: 'Principles for any AURMAK website, app or product.' },
+  { id: 'digital-principles', name: 'Digital Principles', detail: 'Guiding rules for all AURMAK digital work, across the parent brand, sub-brands and products.' },
   { id: 'sub-brands', name: 'Sub-Brands', detail: 'The rules for sub-brands, products and ventures.' },
   { id: 'pitch-decks', name: 'Pitch Decks & Proposals', detail: 'Structures and templates for sales material.' },
   { id: 'ai-use', name: 'AI Use', detail: 'When and how AI can be used, and what must be reviewed.' },

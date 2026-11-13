@@ -34,7 +34,7 @@ This guide sets out how AURMAK looks, sounds and presents itself. It is written 
 - [Brand Overview](#3-brand-overview): who we are, the parent brand and sub-brands and how we sound.
 - [Logo Guidelines](#4-logo-guidelines): the logo files, clear space and how not to alter the logo.
 - [Visual Language](#5-visual-language): photography, imagery and graphic elements.
-- [Digital Principles](#6-digital-principles): principles for any AURMAK website, app or product.
+- [Digital Principles](#6-digital-principles): guiding rules for all AURMAK digital work, across the parent brand, sub-brands and products.
 - [Sub-Brands](#7-sub-brands): the rules for sub-brands, products and ventures.
 - [Pitch Decks & Proposals](#8-pitch-decks--proposals): structures and templates for sales material.
 - [AI Use](#9-ai-use): when and how AI can be used, and what must be reviewed.
@@ -163,7 +163,7 @@ Real, stock and AI-generated images are all permitted. The same rules apply to e
 
 ## 6. Digital Principles
 
-These principles apply to any AURMAK website, app or product. They do not set the look of any one site. Each product team designs its own layouts, components and visual details within these principles.
+These principles apply across the whole AURMAK family: the parent brand, sub-brands, products and ventures, in every website, app and digital service. They are guiding rules, not a list of assets or styles. Each team applies them in its own way, so that all of our digital work still feels like AURMAK.
 
 ### Principles
 
@@ -180,7 +180,7 @@ Use from this guide:
 - The logo files and their clear-space rules
 - The voice, imagery and motion principles
 
-Decided by each product:
+Decided by each team:
 - Page layouts, grids and spacing
 - Component shapes, sizes and states
 - Exact type sizes for each screen
