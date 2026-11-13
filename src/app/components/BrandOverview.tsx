@@ -1,3 +1,5 @@
+import { AlertTriangle } from 'lucide-react';
+import { DoDont } from './DoDont';
 import logoImage from '../../assets/a534ae5395a05e9265cd96257376030497e72896.png';
 
 export function BrandOverview() {
@@ -7,142 +9,144 @@ export function BrandOverview() {
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-[#1B2A6B] mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
+            <h1 className="text-[#282973] mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
               Brand Overview
             </h1>
-            <div className="w-12 md:w-16 h-1 bg-[#2CB5E3]"></div>
+            <div className="w-12 md:w-16 h-1 bg-[#27AAE1]"></div>
           </div>
           <img src={logoImage} alt="AURMAK Logo" className="h-10 md:h-12 lg:h-16 w-auto" />
         </div>
 
+        {/* Name rule */}
+        <div role="note" className="border-l-8 border-[#B42318] bg-[#FEF3F2] p-6 md:p-8">
+          <div className="mb-3 flex items-center gap-3 text-[#B42318]">
+            <AlertTriangle size={28} aria-hidden="true" />
+            <h2 style={{ fontSize: '26px', fontWeight: 800 }}>Always write AURMAK in capitals</h2>
+          </div>
+          <p className="text-[#282973]" style={{ fontSize: '18px', lineHeight: '1.6' }}>
+            In every official document, the name is always AURMAK. That includes guides, proposals, decks, contracts,
+            client emails, web copy and signage. Internal chat can use any format.
+          </p>
+          <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div className="bg-white p-4 border border-[#B42318]/30">
+              <div className="text-[#B42318]" style={{ fontSize: '14px', fontWeight: 700 }}>Never</div>
+              <div className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700, textDecoration: 'line-through' }}>Aurmak</div>
+              <div className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700, textDecoration: 'line-through' }}>aurmak</div>
+            </div>
+            <div className="bg-white p-4 border border-[#027A48]/40">
+              <div className="text-[#027A48]" style={{ fontSize: '14px', fontWeight: 700 }}>Always</div>
+              <div className="text-[#282973]" style={{ fontSize: '24px', fontWeight: 700 }}>AURMAK</div>
+            </div>
+          </div>
+        </div>
+
         {/* Positioning */}
         <div className="space-y-4 md:space-y-6">
-          <h2 className="text-[#1B2A6B] text-2xl md:text-3xl font-semibold">
-            Who We Are
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">
+            Who we are
           </h2>
-          <p className="text-[#4A5568] text-base md:text-lg lg:text-xl leading-relaxed">
-            AURMAK is a digital transformation partner focused on structured execution. We align
-            commercial objectives with disciplined delivery to modernise systems, build scalable
-            products, and strengthen the infrastructure that supports growth.
+          <p className="text-[#545F7E] text-base md:text-lg lg:text-xl leading-relaxed">
+            AURMAK designs and delivers enterprise systems, digital infrastructure, legacy modernisation
+            and AI-enabled operational intelligence. We align commercial objectives with disciplined delivery
+            to modernise systems, build scalable products and strengthen the infrastructure that supports growth.
           </p>
         </div>
 
-        {/* Operating Model */}
-        <div className="border-l-4 border-[#2CB5E3] pl-4 md:pl-8 lg:pl-12 py-6 md:py-8 bg-[#F4F6F8]">
-          <h2 className="text-[#1B2A6B] mb-4 md:mb-6 text-2xl md:text-3xl font-bold">
-            Operating Model
-          </h2>
-          <div className="space-y-6 md:space-y-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3 mb-3">
-                  <div className="w-12 h-12 bg-[#1B2A6B] rounded-sm flex items-center justify-center">
-                    <svg className="w-6 h-6 text-[#2CB5E3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-[#1B2A6B]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                    Strategic Oversight
-                  </h3>
-                </div>
-                <p className="text-[#4A5568]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                  Engagements begin with commercial context, operational constraints, and delivery
-                  governance. Strategy, architecture, and execution planning are aligned early to
-                  reduce fragmentation and create a clear path to implementation.
-                </p>
-                <ul className="space-y-2 mt-4">
-                  <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
-                    <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Commercial goals translated into delivery priorities</span>
-                  </li>
-                  <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
-                    <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Governance, architecture, and security aligned from the outset</span>
-                  </li>
-                  <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
-                    <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Clear ownership across strategy and execution</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3 mb-3">
-                  <div className="w-12 h-12 bg-[#2CB5E3] rounded-sm flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-[#1B2A6B]" style={{ fontSize: '22px', fontWeight: '600' }}>
-                    Integrated Delivery
-                  </h3>
-                </div>
-                <p className="text-[#4A5568]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
-                  Delivery is executed through one accountable team spanning engineering, product,
-                  infrastructure, and AI implementation. The result is faster coordination, stronger
-                  control, and systems designed to perform in real operating environments.
-                </p>
-                <ul className="space-y-2 mt-4">
-                  <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
-                    <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Structured implementation without unnecessary complexity</span>
-                  </li>
-                  <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
-                    <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Leadership-level accountability through delivery</span>
-                  </li>
-                  <li className="flex items-start text-[#4A5568]" style={{ fontSize: '15px' }}>
-                    <span className="text-[#2CB5E3] mr-2">•</span>
-                    <span>Scalable systems built for operational continuity</span>
-                  </li>
-                </ul>
-              </div>
+        {/* Brand architecture */}
+        <div className="space-y-6 md:space-y-8">
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">Brand architecture</h2>
+          <p className="text-[#545F7E] text-base leading-relaxed max-w-3xl">
+            AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a clear relationship to AURMAK. This guide does not list them, because they change over time. The rules they follow are in Digital Principles.
+          </p>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <div className="border border-slate-200 bg-white p-6 shadow-sm">
+              <div className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>AURMAK (parent)</div>
+              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Defines the core identity in this guide: logo, voice, imagery and principles.</p>
             </div>
+            <div className="border border-slate-200 bg-white p-6 shadow-sm">
+              <div className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Sub-brands</div>
+              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Have their own look, within the rules in Digital Principles.</p>
+            </div>
+            <div className="border border-slate-200 bg-white p-6 shadow-sm">
+              <div className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Products and ventures</div>
+              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Follow the sub-brand rules when they have their own identity. Otherwise they use the parent brand.</p>
+            </div>
+          </div>
+        </div>
 
-            <div className="border-t-2 border-[#2CB5E3] pt-6 mt-8">
-              <p className="text-[#1B2A6B]" style={{ fontSize: '18px', fontWeight: '600', lineHeight: '1.6' }}>
-                We connect strategy and execution within a single operating model, helping organisations
-                move from ambition to delivery with greater control, clarity, and measurable impact.
+        {/* Voice */}
+
+        <div className="space-y-6 md:space-y-8">
+          <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">Voice and tone</h2>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <div className="space-y-2">
+              <p className="text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Formal, B2B</p>
+              <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>Written for operators, leaders and buyers. No slang, no hype.</p>
+            </div>
+            <div className="space-y-2">
+              <p className="text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>UK English</p>
+              <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>Use modernise, organisations and programme. Dates and currency follow UK style.</p>
+            </div>
+            <div className="space-y-2">
+              <p className="text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Short, paired headlines</p>
+              <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>Two short phrases ending in full stops: "Two Centres. One Vision." Use this pattern for marketing headlines.</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div className="border border-slate-200 bg-white p-6">
+              <p className="mb-3 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Words and habits to avoid</p>
+              <ul className="space-y-1 text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                <li>• Synergy, leverage, disruptive, game-changing</li>
+                <li>• World-class, best-in-class, cutting-edge</li>
+                <li>• Exclamation marks in headlines</li>
+              </ul>
+            </div>
+            <div className="border border-slate-200 bg-white p-6">
+              <p className="mb-3 text-[#282973]" style={{ fontSize: '18px', fontWeight: 700 }}>Example</p>
+              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                Instead of "We leverage cutting-edge AI to disrupt your operations!", write "We apply AI where it reduces operational cost and risk."
               </p>
             </div>
           </div>
         </div>
 
-        {/* Core Principles */}
+        <DoDont dos={["Write in plain UK English", "Use short, paired headlines that end in a full stop", "Say what we do and what the client gains", "Write AURMAK in capitals in every official document"]} donts={["Use buzzwords such as synergy, leverage or world-class", "Use exclamation marks in headlines", "Make claims we cannot back up with a source", "Write Aurmak or aurmak in official documents"]} />
+
+        {/* Core principles */}
         <div className="space-y-8">
-          <h2 className="text-[#1B2A6B]" style={{ fontSize: '28px', fontWeight: '600' }}>
-            Core Principles
+          <h2 className="text-[#282973]" style={{ fontSize: '30px', fontWeight: '600' }}>
+            Core principles
           </h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
             <div className="space-y-3">
-              <div className="w-2 h-16 bg-[#2CB5E3]"></div>
-              <h3 className="text-[#1B2A6B]" style={{ fontSize: '20px', fontWeight: '600' }}>
-                Structured Execution
+              <div className="w-2 h-16 bg-[#27AAE1]"></div>
+              <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
+                Structured execution
               </h3>
-              <p className="text-[#4A5568]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+              <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>
                 Complex initiatives are delivered through defined frameworks, clear ownership,
                 and disciplined implementation.
               </p>
             </div>
 
             <div className="space-y-3">
-              <div className="w-2 h-16 bg-[#2CB5E3]"></div>
-              <h3 className="text-[#1B2A6B]" style={{ fontSize: '20px', fontWeight: '600' }}>
-                Commercial Alignment
+              <div className="w-2 h-16 bg-[#27AAE1]"></div>
+              <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
+                Commercial alignment
               </h3>
-              <p className="text-[#4A5568]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
+              <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>
                 Technical decisions are shaped by operational priorities, measurable performance,
                 and long-term business value.
               </p>
             </div>
 
             <div className="space-y-3">
-              <div className="w-2 h-16 bg-[#2CB5E3]"></div>
-              <h3 className="text-[#1B2A6B]" style={{ fontSize: '20px', fontWeight: '600' }}>
-                Controlled Innovation
+              <div className="w-2 h-16 bg-[#27AAE1]"></div>
+              <h3 className="text-[#282973]" style={{ fontSize: '22px', fontWeight: '600' }}>
+                Controlled innovation
               </h3>
-              <p className="text-[#4A5568]" style={{ fontSize: '15px', lineHeight: '1.6' }}>
-                New capability is introduced with governance, precision, and scalability in mind,
+              <p className="text-[#545F7E]" style={{ fontSize: '17px', lineHeight: '1.6' }}>
+                New capability is introduced with governance and precision in mind,
                 including AI where it delivers clear operational value.
               </p>
             </div>
