@@ -1,4 +1,4 @@
-# AURMAK Brand Identity Guidelines v2.0
+# AURMAK Brand Identity Guidelines v2.1
 
 Section order matches the guide app tabs exactly:
 
@@ -19,8 +19,8 @@ Logo details were checked against the AURMAK website repository (`public/aurmak-
 
 - Title: `Brand Identity Guidelines`
 - Tagline: `Partnerships Built to Last`
-- Version: `Version 2.0`
-- Footer note: `Last updated: November 2026 · Official AURMAK Brand Guidelines`
+- Version: `Version 2.1`
+- Footer note: `Last updated: 13 November 2026 · Official AURMAK Brand Guidelines`
 
 ---
 

@@ -35,13 +35,13 @@ export function CoverPage() {
           Internal guide for everyone at AURMAK
         </p>
         <p className="text-[#545F7E] text-lg md:text-xl">
-          Version 2.0
+          Version 2.1
         </p>
       </div>
 
       {/* Bottom info */}
       <div className="absolute bottom-6 space-y-1 text-center text-xs text-[#545F7E] md:bottom-12 md:text-sm">
-        <div>Last updated: November 2026 · Official AURMAK Brand Guidelines</div>
+        <div>Last updated: 13 November 2026 · Official AURMAK Brand Guidelines</div>
       </div>
     </div>
   );

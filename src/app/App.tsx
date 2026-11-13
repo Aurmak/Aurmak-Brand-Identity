@@ -81,7 +81,7 @@ export default function App() {
                   <img src={logoImage} alt="AURMAK Logo" className="h-7 md:h-8 w-auto" />
                   <div className="hidden h-5 w-px bg-gray-300 sm:block"></div>
                   <div className="text-base text-[#545F7E]">
-                    Brand Guidelines v2.0
+                    Brand Guidelines v2.1
                   </div>
                 </div>
                 <span className="text-base text-[#545F7E]">
