@@ -10,7 +10,6 @@ const DigitalPrinciples = lazy(() => import('./components/DigitalPrinciples').th
 const StartHere = lazy(() => import('./components/StartHere').then((module) => ({ default: module.StartHere })));
 const PitchDecks = lazy(() => import('./components/PitchDecks').then((module) => ({ default: module.PitchDecks })));
 const AIUse = lazy(() => import('./components/AIUse').then((module) => ({ default: module.AIUse })));
-const SubBrands = lazy(() => import('./components/SubBrands').then((module) => ({ default: module.SubBrands })));
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -25,7 +24,6 @@ export default function App() {
       { id: 'logo-guidelines', title: 'Logo Guidelines', component: <LogoUsage /> },
       { id: 'visual-language', title: 'Visual Language', component: <VisualDirection /> },
       { id: 'digital-principles', title: 'Digital Principles', component: <DigitalPrinciples /> },
-      { id: 'sub-brands', title: 'Sub-Brands', component: <SubBrands /> },
       { id: 'pitch-decks', title: 'Pitch Decks & Proposals', component: <PitchDecks /> },
       { id: 'ai-use', title: 'AI Use', component: <AIUse /> },
     ],

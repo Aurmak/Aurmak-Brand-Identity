@@ -8,9 +8,8 @@ Section order matches the guide app tabs exactly:
 4. Logo Guidelines
 5. Visual Language
 6. Digital Principles
-7. Sub-Brands
-8. Pitch Decks & Proposals
-9. AI Use
+7. Pitch Decks & Proposals
+8. AI Use
 
 Logo details were checked against the AURMAK website repository (`public/aurmak-logo-lightmode.svg`, `index.html`).
 
@@ -35,9 +34,8 @@ This guide sets out how AURMAK looks, sounds and presents itself. It is written 
 - [Logo Guidelines](#4-logo-guidelines): the logo files, clear space and how not to alter the logo.
 - [Visual Language](#5-visual-language): photography, imagery and graphic elements.
 - [Digital Principles](#6-digital-principles): guiding rules for all AURMAK digital work, across the parent brand, sub-brands and products.
-- [Sub-Brands](#7-sub-brands): the rules for sub-brands, products and ventures.
-- [Pitch Decks & Proposals](#8-pitch-decks--proposals): structures and templates for sales material.
-- [AI Use](#9-ai-use): when and how AI can be used, and what must be reviewed.
+- [Pitch Decks & Proposals](#7-pitch-decks--proposals): structures and templates for sales material.
+- [AI Use](#8-ai-use): when and how AI can be used, and what must be reviewed.
 
 **Also useful: email signature.** the signature tool we designed, for every staff email. You need an AURMAK account to open it. Find it on the Business Ops Hub SharePoint site: search for "email signature".
 
@@ -55,10 +53,10 @@ AURMAK designs and delivers enterprise systems, digital infrastructure, legacy m
 
 ### Brand architecture
 
-AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a clear relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
+AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a clear relationship to AURMAK. This guide does not list them, because they change over time. The rules they follow are in Digital Principles.
 
 - **AURMAK (parent):** defines the core identity in this guide.
-- **Sub-brands:** have their own look, within the Sub-Brands rules.
+- **Sub-brands:** have their own look, within the Digital Principles rules.
 - **Products and ventures:** follow the sub-brand rules when they have their own identity. Otherwise they use the parent brand.
 
 ### Voice and tone
@@ -185,7 +183,22 @@ Decided by each team:
 - Component shapes, sizes and states
 - Exact type sizes for each screen
 - Animation details and page transitions
-- A sub-brand's own look, within these principles (see Sub-Brands)
+
+### Sub-brands
+
+Sub-brands, products and ventures can have their own look and logos. These rules keep them recognisably part of AURMAK.
+
+- **Agree first:** every sub-brand is agreed before it is used. Each one has a domain, look and relationship to AURMAK. This guide does not list sub-brands, because they change over time.
+- **Own look:** a sub-brand sets its own colours and typefaces. It does not reuse the AURMAK look.
+- **Same accessibility bar:** each sub-brand meets the accessibility requirements below before it is published.
+- **Logo built from the parent rules:** each sub-brand has a master logo file, a reversed version for dark backgrounds, and clear space and minimum sizes that follow the Logo Guidelines section.
+- **Retire properly:** when a sub-brand ends, decide what happens to its domain, assets and records, and archive the assets.
+
+**Do**
+- Agree a sub-brand before using it
+
+**Don't**
+- Launch a sub-brand before it is agreed
 
 ### Accessibility requirements
 
@@ -208,27 +221,7 @@ Decided by each team:
 
 ---
 
-## 7. Sub-Brands
-
-Sub-brands, products and ventures can have their own look and logos. This section sets the rules they follow to stay recognisably part of AURMAK.
-
-- **Agree first:** every sub-brand is agreed before use. Each one has a domain, look and relationship to AURMAK. Sub-brands are not listed in this guide.
-- **Own look:** a sub-brand sets its own colours and typefaces, . It does not reuse the AURMAK look.
-- **Same accessibility bar:** each sub-brand must meet the accessibility requirements in Digital Principles before it is published.
-- **Logo built from the parent rules:** a master logo file, a reversed version for dark backgrounds and clear space and minimum sizes that follow Logo Guidelines.
-- **Retire properly:** when a sub-brand ends, decide what happens to its domain, assets and records and archive the assets.
-
----
-
-**Do**
-- Agree a sub-brand before using it
-
-**Don't**
-- Launch a sub-brand before it is agreed
-
----
-
-## 8. Pitch Decks & Proposals
+## 7. Pitch Decks & Proposals
 
 Sales material starts from our templates. Copy a template and create your own file from it. Keep the template itself unchanged, so the next person starts from the same place.
 
@@ -307,7 +300,7 @@ These flows are examples, not requirements. Keep the order that suits the buyer.
 
 ---
 
-## 9. AI Use
+## 8. AI Use
 
 AI can help us draft, research and check work. It does not replace the people who decide what we say and who signs it off.
 

@@ -26,6 +26,29 @@ const principles = [
   },
 ];
 
+const subBrandRules = [
+  {
+    title: 'Agree first',
+    body: 'Every sub-brand is agreed before it is used. Each one has a domain, look and relationship to AURMAK. This guide does not list sub-brands, because they change over time.',
+  },
+  {
+    title: 'Own look',
+    body: 'A sub-brand sets its own colours and typefaces. It does not reuse the AURMAK look.',
+  },
+  {
+    title: 'Same accessibility bar',
+    body: 'Each sub-brand meets the accessibility requirements below before it is published.',
+  },
+  {
+    title: 'Logo built from the parent rules',
+    body: 'Each sub-brand has a master logo file, a reversed version for dark backgrounds, and clear space and minimum sizes that follow the Logo Guidelines section.',
+  },
+  {
+    title: 'Retire properly',
+    body: 'When a sub-brand ends, decide what happens to its domain, assets and records, and archive the assets.',
+  },
+];
+
 const accessibility = [
   'Use semantic HTML: real buttons, links, headings and lists',
   'Every interactive element works with the keyboard alone',
@@ -83,10 +106,26 @@ export function DigitalPrinciples() {
                 <li>• Component shapes, sizes and states</li>
                 <li>• Exact type sizes for each screen</li>
                 <li>• Animation details and page transitions</li>
-                <li>• A sub-brand's own look, within these principles (see Sub-Brands)</li>
               </ul>
             </div>
           </div>
+        </div>
+
+        <div className="space-y-8">
+          <h2 className="text-[#282973]" style={{ fontSize: '30px', fontWeight: 600 }}>Sub-brands</h2>
+          <p className="text-[#545F7E]" style={{ fontSize: '18px', lineHeight: '1.6', maxWidth: '48rem' }}>
+            Sub-brands, products and ventures can have their own look and logos. These rules keep them recognisably part of AURMAK.
+          </p>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {subBrandRules.map((r) => (
+              <div key={r.title} className="border border-slate-200 bg-white p-6 shadow-sm">
+                <div className="mb-4 h-1 w-10 bg-[#27AAE1]"></div>
+                <h3 className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>{r.title}</h3>
+                <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>{r.body}</p>
+              </div>
+            ))}
+          </div>
+          <DoDont dos={["Agree a sub-brand before using it"]} donts={["Launch a sub-brand before it is agreed"]} />
         </div>
 
         <div className="border-l-4 border-[#27AAE1] bg-[#EEF7FC] p-8">

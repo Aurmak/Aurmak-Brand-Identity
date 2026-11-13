@@ -56,7 +56,7 @@ export function BrandOverview() {
         <div className="space-y-6 md:space-y-8">
           <h2 className="text-[#282973] text-2xl md:text-3xl font-semibold">Brand architecture</h2>
           <p className="text-[#545F7E] text-base leading-relaxed max-w-3xl">
-            AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a clear relationship to AURMAK. This guide does not list them, because they change over time. See the Sub-Brands section for the rules they follow.
+            AURMAK is the parent brand. Sub-brands, products and ventures sit beneath it. Each one has a clear relationship to AURMAK. This guide does not list them, because they change over time. The rules they follow are in Digital Principles.
           </p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             <div className="border border-slate-200 bg-white p-6 shadow-sm">
@@ -65,7 +65,7 @@ export function BrandOverview() {
             </div>
             <div className="border border-slate-200 bg-white p-6 shadow-sm">
               <div className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Sub-brands</div>
-              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Have their own look, within the rules in the Sub-Brands section.</p>
+              <p className="text-[#545F7E]" style={{ fontSize: '16px', lineHeight: '1.6' }}>Have their own look, within the rules in Digital Principles.</p>
             </div>
             <div className="border border-slate-200 bg-white p-6 shadow-sm">
               <div className="mb-2 text-[#282973]" style={{ fontSize: '20px', fontWeight: 700 }}>Products and ventures</div>
