@@ -149,7 +149,7 @@ export function PitchDecks() {
             </ul>
           </div>
         </div>
-        <DoDont dos={["Copy the template and create a new file", "End every deck with one clear next step", "In decks, quote numbers as ranges, with their basis"]} donts={["Edit the shared template itself", "Put client names, prices or contract terms in a shared template"]} />
+        <DoDont dos={["Copy the template and create a new file", "End every deck with one clear next step", "In decks, quote numbers as ranges, with their basis", "Send decks and proposals as PDF"]} donts={["Edit the shared template itself", "Put client names, prices or contract terms in a shared template", "Send the original file, which can contain notes and comments"]} />
       </div>
     </div>
   );

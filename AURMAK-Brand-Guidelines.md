@@ -298,10 +298,12 @@ These flows are examples, not requirements. Keep the order that suits the buyer.
 - Copy the template and create a new file
 - End every deck with one clear next step
 - In decks, quote numbers as ranges, with their basis
+- Send decks and proposals as PDF
 
 **Don't**
 - Edit the shared template itself
 - Put client names, prices or contract terms in a shared template
+- Send the original file, which can contain notes and comments
 
 ---
 
